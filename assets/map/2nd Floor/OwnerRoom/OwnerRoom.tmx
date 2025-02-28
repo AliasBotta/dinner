@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="18" tileheight="18" infinite="0" nextlayerid="5" nextobjectid="16">
+ <tileset firstgid="1" source="../../TILEMAPS/Tilemap1/Tilemap1.tsx"/>
+ <tileset firstgid="154" source="../../TILEMAPS/Tilemap 2/Tilemap2.tsx"/>
+ <tileset firstgid="324" source="../../TILEMAPS/Furniture/Furniture.tsx"/>
+ <layer id="1" name="Livello tile 1" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0TEOgkAQheFF7aiMaCKaAJaoJwAL9KZewdZ4A/AIeAVu4CMUvkwsyOzSbfElky3mT2YjY0zkeZ5zM5iTxQSNFXzIeqJGR7QNeQ+2gUPwo23Ie/RamrfYHcPOstEJd5pz7D7CCUKLBt+j96A3buwtGstgkEBKMtE4O2hUcCU30dD+x5Ma/xRQwgVeykYNzUhvZcOFL2kLRJw=
+  </data>
+ </layer>
+ <layer id="2" name="Furniture" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDGVwnZGB4T6QDmCkrT3RQPNjaGgHKxMDQwHQ/EIK7QCFhw8QbwDijVCzfBlpEz5HgWYeg5obCaSj0OzYRIHZskwI9nGouXlAOh/NjsMU2GECtMOUibC6KxTY4Qk034sIOygBHGjmGwL5RkBsjCT+kcb5YzAAAFeED8A=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Collisioni">
+  <object id="1" x="144" y="198" width="144" height="54"/>
+  <object id="2" x="288" y="144" width="54" height="54"/>
+  <object id="3" x="270" y="144" width="18" height="54"/>
+  <object id="4" x="342" y="144" width="18" height="180"/>
+  <object id="5" x="144" y="324" width="216" height="18"/>
+  <object id="6" x="144" y="252" width="18" height="72"/>
+  <object id="7" x="162" y="252" width="18" height="18"/>
+  <object id="8" x="162" y="306" width="18" height="18"/>
+  <object id="9" x="162" y="270" width="36" height="36"/>
+  <object id="10" x="252" y="252" width="36" height="18"/>
+  <object id="11" x="234" y="306" width="54" height="18"/>
+  <object id="12" x="324" y="306" width="18" height="18"/>
+  <object id="13" x="288" y="198" width="54" height="18"/>
+  <object id="14" x="216" y="252" width="18" height="18"/>
+ </objectgroup>
+ <layer id="3" name="Foreground" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqGNljLSJ7ccAIAVkUBXQ==
+  </data>
+ </layer>
+</map>

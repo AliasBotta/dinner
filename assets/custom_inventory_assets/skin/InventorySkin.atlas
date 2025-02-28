@@ -1,0 +1,13 @@
+
+InventorySkin.png
+size: 512, 512
+format: RGBA8888
+repeat: none
+Inventory
+  rotate: false
+  xy: 1, 1
+  size: 60, 258
+  split: 7, 7, 7, 13
+  orig: 60, 258
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,54 @@
+
+HUDSkin.png
+size: 512, 512
+format: RGBA8888
+repeat: none
+Commodore Pixelized v1.2(2)
+  rotate: false
+  xy: 1, 476
+  size: 506, 29
+  orig: 506, 29
+  offset: 0, 0
+  index: -1
+DialogBox
+  rotate: false
+  xy: 1, 454
+  size: 22, 20
+  split: 4, 4, 4, 6
+  pad: 5, 5, 5, 7
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+DialogBox - Name
+  rotate: false
+  xy: 1, 432
+  size: 22, 20
+  split: 5, 5, 4, 6
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+OptionBox
+  rotate: false
+  xy: 1, 410
+  size: 20, 20
+  split: 3, 3, 3, 5
+  pad: 4, 4, 4, 6
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+Selector
+  rotate: false
+  xy: 25, 454
+  size: 20, 20
+  split: 9, 9, 9, 9
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+interaction
+  rotate: false
+  xy: 25, 432
+  size: 20, 20
+  split: 0, 0, 0, 0
+  orig: 20, 20
+  offset: 0, 0
+  index: -1

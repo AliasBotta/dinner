@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="18" tileheight="18" infinite="0" nextlayerid="5" nextobjectid="36">
+ <tileset firstgid="1" source="../../TILEMAPS/Tilemap 2/Tilemap2.tsx"/>
+ <tileset firstgid="171" source="../../TILEMAPS/Furniture/Furniture.tsx"/>
+ <tileset firstgid="549" source="../../TILEMAPS/Tilemap1/Tilemap1.tsx"/>
+ <layer id="1" name="Livello tile 1" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJyzYGJgsBjFo3gUj+JRPKixEAMDgzAaFmGgvb3KQDuigHQMFIPYYljcgg+T406QvdlAOheKQewIII4E4mgoHUWAViXT3iYmVJwJtR8XzkHjk2vvRCZU3MCE6RZ8mFr2koqHur2TgHgyEXgKVL0klexdDMRLiMBLoeq1hri9W4B4KxF4G1S99RBPVyPNXnWgmCkJ2IwMe02wmONFohmjGDsGAHZWCKE=
+  </data>
+ </layer>
+ <layer id="2" name="Furniture" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAQy8B+IPQPwJyh4JgImRgYGZEcKWBdJSjMTRIw0M1fTABowr9gGIL2mgnTJk2DtUwxkZgPKHJCNx9FAEI7GcHM4AADX8DB8=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Collisioni">
+  <object id="1" x="144" y="306" width="198" height="18"/>
+  <object id="2" x="144" y="432" width="198" height="18"/>
+  <object id="3" x="342" y="396" width="18" height="18"/>
+  <object id="4" x="342" y="342" width="18" height="18"/>
+  <object id="12" x="72" y="468" width="72" height="18"/>
+  <object id="13" x="72" y="486" width="90" height="18"/>
+  <object id="14" x="144" y="468" width="234" height="18"/>
+  <object id="15" x="360" y="252" width="18" height="216"/>
+  <object id="17" x="144" y="252" width="216" height="36"/>
+  <object id="18" x="144" y="234" width="234" height="18"/>
+  <object id="19" x="72" y="216" width="90" height="18"/>
+  <object id="21" x="54" y="216" width="18" height="288"/>
+  <object id="22" x="72" y="234" width="72" height="36"/>
+  <object id="23" x="126" y="270" width="18" height="18"/>
+  <object id="24" x="72" y="270" width="18" height="18"/>
+  <object id="31" x="90" y="306" width="36" height="18"/>
+  <object id="32" x="90" y="270" width="36" height="18"/>
+  <object id="33" x="90" y="378" width="36" height="18"/>
+ </objectgroup>
+ <layer id="3" name="Foreground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAS7wmUSaEvAWiN9B2RyMpNGjYBQMZkDPfIQMRkI+EmGE4FEwCsgFAInZDdY=
+  </data>
+ </layer>
+</map>

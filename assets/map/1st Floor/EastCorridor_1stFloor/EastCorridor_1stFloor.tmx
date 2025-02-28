@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="18" tileheight="18" infinite="0" nextlayerid="8" nextobjectid="34">
+ <tileset firstgid="1" source="../../TILEMAPS/Tilemap 2/Tilemap2.tsx"/>
+ <tileset firstgid="171" source="../../TILEMAPS/Furniture/Furniture.tsx"/>
+ <tileset firstgid="549" source="../../TILEMAPS/Tilemap1/Tilemap1.tsx"/>
+ <layer id="1" name="Livello tile 1" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxTYWBgUBnFo3gUj+IRhoWAWBgJi9DJXmUgdgNiTyitSkd7I4A4HErT094sIM4A4mw621uJhIm1Fz1dkIpFybQX5F53IPZggKQLdyKwG5IeLwrsjcCCIxkQ6YUXiKNwqIsm014JIM7EgrOgNCi9yGGRz4aqySHTXk00fZTiwW6v1QDZawLEplBsDsQWQGyJJAbC05kYGGYA8UwmVHFs6s2ItHcUj+JRTB4GAHmgotA=
+  </data>
+ </layer>
+ <layer id="5" name="Furniture" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqGHzg7QPY+GiB7h6J/7wPxAyAOZ0SwcamJxKNmFIyCUTAKRgH5AACuvwsN
+  </data>
+ </layer>
+ <objectgroup id="6" name="Collisioni">
+  <object id="15" x="360" y="252" width="18" height="72"/>
+  <object id="16" x="306" y="324" width="36" height="18"/>
+  <object id="17" x="252" y="324" width="36" height="18"/>
+  <object id="18" x="144" y="324" width="36" height="18"/>
+  <object id="19" x="90" y="324" width="36" height="18"/>
+  <object id="20" x="54" y="270" width="306" height="54"/>
+  <object id="22" x="342" y="180" width="18" height="90"/>
+  <object id="23" x="360" y="180" width="54" height="18"/>
+  <object id="27" x="360" y="198" width="54" height="36"/>
+  <object id="28" x="288" y="324" width="18" height="18"/>
+  <object id="29" x="126" y="324" width="18" height="18"/>
+  <object id="31" x="54" y="324" width="18" height="90"/>
+  <object id="32" x="414" y="180" width="18" height="234"/>
+  <object id="33" x="72" y="396" width="342" height="18"/>
+ </objectgroup>
+ <layer id="7" name="Foreground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0DENAAAIwDDwrwlviICEg1bBsggAYFvldcEPPgPMNPCWAX0=
+  </data>
+ </layer>
+</map>

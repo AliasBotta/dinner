@@ -1,0 +1,1293 @@
+.
+├── assets
+│   ├── animation
+│   │   └── turn_off
+│   │       ├── turn_off2.png
+│   │       ├── turn_off3.png
+│   │       ├── turn_off.atlas
+│   │       └── turn_off.png
+│   ├── assets.txt
+│   ├── characters
+│   │   ├── Adelaide_Idle.png
+│   │   ├── Aurora_Idle.png
+│   │   ├── Carlo_Idle.png
+│   │   ├── Eleonora_Idle.png
+│   │   ├── Giovanni_Idle.png
+│   │   ├── ProtagonistF_Idle.png
+│   │   ├── ProtagonistF_Walk.png
+│   │   ├── ProtagonistM_Idle.png
+│   │   ├── ProtagonistM_Walk.png
+│   │   └── Vittorio_Idle.png
+│   ├── computer_ui_assets
+│   │   ├── preview.gif
+│   │   ├── raw
+│   │   │   ├── blue.png
+│   │   │   ├── button.9.png
+│   │   │   ├── button-down.9.png
+│   │   │   ├── check-box-off.png
+│   │   │   ├── check-box.png
+│   │   │   ├── commodore-64.fnt
+│   │   │   ├── commodore-64.png
+│   │   │   ├── cursor.9.png
+│   │   │   ├── cursor-black.9.png
+│   │   │   ├── dialog.9.png
+│   │   │   ├── grey.png
+│   │   │   ├── horizontal-split-pane.9.png
+│   │   │   ├── light-blue.png
+│   │   │   ├── list.9.png
+│   │   │   ├── minus.png
+│   │   │   ├── music-off.png
+│   │   │   ├── music.png
+│   │   │   ├── plus.png
+│   │   │   ├── progress-bar.9.png
+│   │   │   ├── progress-bar-knob.9.png
+│   │   │   ├── radio-button.9.png
+│   │   │   ├── radio-button-off.png
+│   │   │   ├── radio-button.png
+│   │   │   ├── README.md
+│   │   │   ├── scroll-bar.9.png
+│   │   │   ├── scroll-bar-horizontal-knob.9.png
+│   │   │   ├── scroll-bar-vertical-knob.9.png
+│   │   │   ├── slider-knob.png
+│   │   │   ├── slider.png
+│   │   │   ├── sound-off.png
+│   │   │   ├── sound.png
+│   │   │   ├── touchpad-knob.png
+│   │   │   ├── touchpad.png
+│   │   │   ├── vertical-split-pane.9.png
+│   │   │   ├── white.png
+│   │   │   └── window.9.png
+│   │   ├── README.md
+│   │   ├── skin
+│   │   │   ├── commodore-64.fnt
+│   │   │   ├── Commodore Pixelized v1.2.fnt
+│   │   │   ├── Commodore Pixelized v1.2.png
+│   │   │   ├── uiskin.atlas
+│   │   │   ├── uiskin.json
+│   │   │   └── uiskin.png
+│   │   └── style-guide.png
+│   ├── cursor.png
+│   ├── custom_hud_assets
+│   │   ├── interaction.png
+│   │   ├── raw
+│   │   │   ├── Commodore Pixelized v1.2(2).fnt
+│   │   │   ├── Commodore Pixelized v1.2.fnt
+│   │   │   ├── Commodore Pixelized v1.2.png
+│   │   │   ├── DialogBox.9.png
+│   │   │   ├── DialogBox - Name.9.png
+│   │   │   ├── interaction.9.png
+│   │   │   ├── OptionBox.9.png
+│   │   │   └── Selector.9.png
+│   │   └── skin
+│   │       ├── Commodore Pixelized v1.2(2).fnt
+│   │       ├── Commodore Pixelized v1.2.fnt
+│   │       ├── HUDSkin.atlas
+│   │       ├── HUDSkin.json
+│   │       └── HUDSkin.png
+│   ├── custom_inventory_assets
+│   │   ├── raw
+│   │   │   └── Inventory.9.png
+│   │   └── skin
+│   │       ├── InventorySkin.atlas
+│   │       ├── InventorySkin.json
+│   │       └── InventorySkin.png
+│   ├── custom_ui_assets
+│   │   ├── raw
+│   │   │   ├── background.9.png
+│   │   │   ├── black.9.png
+│   │   │   ├── ButtonDown.9.png
+│   │   │   ├── ButtonOVER.9.png
+│   │   │   ├── ButtonUp.9.png
+│   │   │   ├── Checkbox1.9.png
+│   │   │   ├── Checkbox2.9.png
+│   │   │   ├── Checkbox3.9.png
+│   │   │   ├── Commodore Pixelized v1.2(1).fnt
+│   │   │   ├── Commodore Pixelized v1.2(1).png
+│   │   │   ├── Commodore Pixelized v1.2.fnt
+│   │   │   ├── Commodore Pixelized v1.2.png
+│   │   │   ├── Cursor.9.png
+│   │   │   ├── DialogBox.9.png
+│   │   │   ├── ListBGOver1.9.png
+│   │   │   ├── ListBGOver2.9.png
+│   │   │   ├── ListBGOver3.9.png
+│   │   │   ├── Pause.9.png
+│   │   │   ├── PauseMainMenu.9.png
+│   │   │   ├── ProtagonistF.9.png
+│   │   │   ├── ProtagonistF - over.9.png
+│   │   │   ├── ProtagonistM.9.png
+│   │   │   ├── ProtagonistM - over.9.png
+│   │   │   ├── Scrollbar.9.png
+│   │   │   ├── Scrollbar-export.9.png
+│   │   │   ├── Select.9.png
+│   │   │   ├── SelectOVER.9.png
+│   │   │   ├── SKIN.png
+│   │   │   ├── Slider1.9.png
+│   │   │   ├── Slider2.9.png
+│   │   │   ├── Slider.9.png
+│   │   │   ├── SliderBase.9.png
+│   │   │   ├── typeo___(1).fnt
+│   │   │   ├── typeo___(1).png
+│   │   │   ├── typeo___(2).fnt
+│   │   │   ├── typeo___(2).png
+│   │   │   ├── typeo___(3).fnt
+│   │   │   ├── typeo___(3).png
+│   │   │   ├── typeo___.fnt
+│   │   │   ├── typeo___.png
+│   │   │   └── typeo___.ttf
+│   │   └── skin
+│   │       ├── Commodore Pixelized v1.2(1).fnt
+│   │       ├── Commodore Pixelized v1.2.fnt
+│   │       ├── SKIN2.png
+│   │       ├── SKIN3.png
+│   │       ├── SKIN.atlas
+│   │       ├── SKIN.json
+│   │       └── SKIN.png
+│   ├── default.fnt
+│   ├── font-small.fnt
+│   ├── investigator_icon.png
+│   ├── items
+│   │   ├── knife.png
+│   │   └── paper.png
+│   ├── map
+│   │   ├── 1st Floor
+│   │   │   ├── Ballroom
+│   │   │   │   └── Ballroom.tmx
+│   │   │   ├── Ballroom toilet
+│   │   │   │   └── Ballroom Toilet.tmx
+│   │   │   ├── Closet
+│   │   │   │   └── Closet.tmx
+│   │   │   ├── Dining Room
+│   │   │   │   ├── DiningRoom_CUTSCENE_AFTER.tmx
+│   │   │   │   ├── DiningRoom_CUTSCENE_BEFORE.tmx
+│   │   │   │   └── DiningRoom.tmx
+│   │   │   ├── EastCorridor_1stFloor
+│   │   │   │   └── EastCorridor_1stFloor.tmx
+│   │   │   ├── Generic Bathroom 1st Floor
+│   │   │   │   └── Bathroom.tmx
+│   │   │   ├── Hall 1st Floor
+│   │   │   │   ├── Hall.tmx
+│   │   │   │   ├── TilemapHall.aseprite
+│   │   │   │   └── TilemapHall.json
+│   │   │   ├── Kitchen
+│   │   │   │   └── Kitchen.tmx
+│   │   │   ├── Room 1
+│   │   │   │   └── Room1.tmx
+│   │   │   ├── Room 2
+│   │   │   │   └── Room2.tmx
+│   │   │   └── WestCorridor_1stFloor
+│   │   │       └── WestCorridor_1stFloor.tmx
+│   │   ├── 2nd Floor
+│   │   │   ├── DaughterRoom
+│   │   │   │   └── DaughterRoom.tmx
+│   │   │   ├── EastCorridor_2ndFloor
+│   │   │   │   ├── EastCorridor_2ndFloor.tmx
+│   │   │   │   └── Room3.tmx
+│   │   │   ├── Generic Bathroom 2nd Floor
+│   │   │   │   └── Bathroom.tmx
+│   │   │   ├── Giardino
+│   │   │   │   ├── GardenAfter.tmx
+│   │   │   │   └── Garden.tmx
+│   │   │   ├── Hall 2nd Floor
+│   │   │   │   └── Hall2.tmx
+│   │   │   ├── Library
+│   │   │   │   └── Library.tmx
+│   │   │   ├── OwnerBathroom
+│   │   │   │   └── OwnerBathroom.tmx
+│   │   │   ├── OwnerRoom
+│   │   │   │   └── OwnerRoom.tmx
+│   │   │   ├── Room 3
+│   │   │   │   └── Room3.tmx
+│   │   │   ├── Room 4
+│   │   │   │   └── Room4.tmx
+│   │   │   └── WestCorridor_2ndFloor
+│   │   │       └── WestCorridor_2ndFloor.tmx
+│   │   ├── 3rd Floor
+│   │   │   ├── Ceiling
+│   │   │   │   └── Ceiling.tmx
+│   │   │   └── CeilingRoom
+│   │   │       └── CeilingRoom.tmx
+│   │   ├── arrow_up.png
+│   │   ├── arrow_up.tsx
+│   │   ├── Basement
+│   │   │   ├── BasementCorridor
+│   │   │   │   └── BasementCorridor.tmx
+│   │   │   └── SecretRoom
+│   │   │       ├── SecretRoomF.tmx
+│   │   │       └── SecretRoomM.tmx
+│   │   ├── black.tmx
+│   │   ├── Interiors_16x16.png
+│   │   ├── Interiors_16x16.tsx
+│   │   ├── Room_Builder_16x16.png
+│   │   ├── Room_Builder_16x16.tsx
+│   │   ├── TILEMAPS
+│   │   │   ├── Furniture
+│   │   │   │   ├── Furniture2.aseprite
+│   │   │   │   ├── Furniture2.png
+│   │   │   │   ├── Furniture2.tsx
+│   │   │   │   ├── Furniture.aseprite
+│   │   │   │   ├── Furniture.json
+│   │   │   │   ├── Furniture.png
+│   │   │   │   └── Furniture.tsx
+│   │   │   ├── Garden
+│   │   │   │   ├── Garden.aseprite
+│   │   │   │   ├── GardenExample.aseprite
+│   │   │   │   ├── Garden.png
+│   │   │   │   └── Garden.tsx
+│   │   │   ├── Soffitta
+│   │   │   │   ├── Ceilling.tsx
+│   │   │   │   └── Tilemap.png
+│   │   │   ├── Tilemap1
+│   │   │   │   ├── Tilemap1.aseprite
+│   │   │   │   ├── Tilemap1.png
+│   │   │   │   ├── Tilemap1.tsx
+│   │   │   │   ├── TilemapExample1.aseprite
+│   │   │   │   └── TilemapExample1.png
+│   │   │   ├── Tilemap 2
+│   │   │   │   ├── Roba vecchia
+│   │   │   │   │   ├── TilemapExample2_2.png
+│   │   │   │   │   ├── TilemapExample2_3.png
+│   │   │   │   │   ├── TilemapExample2_4.png
+│   │   │   │   │   ├── TilemapExample2_6.png
+│   │   │   │   │   └── TilemapExample2_8.png
+│   │   │   │   ├── Tilemap2.aseprite
+│   │   │   │   ├── Tilemap2.png
+│   │   │   │   └── Tilemap2.tsx
+│   │   │   ├── Tilemap 3
+│   │   │   │   ├── Tilemap3.aseprite
+│   │   │   │   ├── Tilemap3.png
+│   │   │   │   ├── Tilemap3.tsx
+│   │   │   │   ├── TilemapExample3.aseprite
+│   │   │   │   └── TilemapExample3.png
+│   │   │   └── Tilemap Hall
+│   │   │       ├── TilemapHall.png
+│   │   │       └── TilemapHall.tsx
+│   │   └── tutorial
+│   │       ├── Hall.tmx
+│   │       ├── RetroWhite.png
+│   │       ├── RetroWhite.tsx
+│   │       ├── TilemapHall.png
+│   │       ├── TilemapHall.tsx
+│   │       ├── tutorialMap.tmx
+│   │       ├── Tutorial_map.tmx
+│   │       ├── UI_16x16.png
+│   │       └── UI_16x16.tsx
+│   ├── META-INF
+│   │   └── MANIFEST.MF
+│   ├── music
+│   │   ├── garden_ambience.wav
+│   │   ├── home.wav
+│   │   ├── MainMenu.wav
+│   │   └── start_boom.mp3
+│   ├── player.png
+│   ├── save_slot_0.json
+│   ├── save_slot_0_pc.json
+│   ├── save_slot_1.json
+│   ├── save_slot_1_pc.json
+│   ├── save_slot_2_pc.json
+│   └── sound
+│       ├── bump.mp3
+│       ├── bush_rustling.mp3
+│       ├── check.mp3
+│       ├── click_down.mp3
+│       ├── click_up.mp3
+│       ├── collected.mp3
+│       ├── door_closed.mp3
+│       ├── door_entrance_1.mp3
+│       ├── door_entrance_2.mp3
+│       ├── flush2.mp3
+│       ├── flush.mp3
+│       ├── grassFS1.mp3
+│       ├── grassFS2.mp3
+│       ├── old_scream.mp3
+│       ├── pc_click_1.mp3
+│       ├── pc_click_2.mp3
+│       ├── pc_noise_1.mp3
+│       ├── pc_noise_2.mp3
+│       ├── pc_text_printing.mp3
+│       ├── pc_turn_off.mp3
+│       ├── stairs_down.mp3
+│       ├── stairs_up.mp3
+│       ├── transition.mp3
+│       ├── type.mp3
+│       ├── woodFS1.mp3
+│       └── woodFS2.mp3
+├── build.gradle
+├── core
+│   ├── build
+│   │   ├── classes
+│   │   │   └── java
+│   │   │       ├── main
+│   │   │       │   └── io
+│   │   │       │       └── github
+│   │   │       │           └── dinner
+│   │   │       │               ├── controller
+│   │   │       │               │   ├── AudioController.class
+│   │   │       │               │   ├── DialogController.class
+│   │   │       │               │   ├── InteractableObjectController$1.class
+│   │   │       │               │   ├── InteractableObjectController.class
+│   │   │       │               │   ├── InteractionController.class
+│   │   │       │               │   ├── LevelController.class
+│   │   │       │               │   ├── MenuController.class
+│   │   │       │               │   ├── PauseController.class
+│   │   │       │               │   ├── PlayerController$1.class
+│   │   │       │               │   ├── PlayerController.class
+│   │   │       │               │   ├── SaveController$1.class
+│   │   │       │               │   ├── SaveController$GameData.class
+│   │   │       │               │   ├── SaveController.class
+│   │   │       │               │   └── SettingsController.class
+│   │   │       │               ├── Dinner$GameState.class
+│   │   │       │               ├── Dinner.class
+│   │   │       │               ├── model
+│   │   │       │               │   ├── dialog
+│   │   │       │               │   │   ├── ChoiceDialogNode.class
+│   │   │       │               │   │   ├── Dialog.class
+│   │   │       │               │   │   ├── DialogNode.class
+│   │   │       │               │   │   ├── Dialogs.class
+│   │   │       │               │   │   ├── DialogTraverser.class
+│   │   │       │               │   │   └── LinearDialogNode.class
+│   │   │       │               │   ├── interactables
+│   │   │       │               │   │   ├── InteractableObject.class
+│   │   │       │               │   │   ├── Item.class
+│   │   │       │               │   │   ├── Npc$Direction.class
+│   │   │       │               │   │   ├── Npc.class
+│   │   │       │               │   │   └── npcs
+│   │   │       │               │   │       ├── Adelaide.class
+│   │   │       │               │   │       ├── Aurora$1.class
+│   │   │       │               │   │       ├── Aurora$2.class
+│   │   │       │               │   │       ├── Aurora.class
+│   │   │       │               │   │       ├── Carlo.class
+│   │   │       │               │   │       ├── Eleonora.class
+│   │   │       │               │   │       ├── Giovanni.class
+│   │   │       │               │   │       └── Vittorio.class
+│   │   │       │               │   ├── memento
+│   │   │       │               │   │   ├── ItemMemento.class
+│   │   │       │               │   │   ├── NotebookMemento.class
+│   │   │       │               │   │   ├── NpcDialogMemento.class
+│   │   │       │               │   │   ├── PlayerMemento.class
+│   │   │       │               │   │   ├── ProgressMemento.class
+│   │   │       │               │   │   └── RoomMemento.class
+│   │   │       │               │   ├── Notebook.class
+│   │   │       │               │   ├── Player$PlayerDirection.class
+│   │   │       │               │   ├── Player.class
+│   │   │       │               │   ├── Progress.class
+│   │   │       │               │   └── states
+│   │   │       │               │       ├── LevelState.class
+│   │   │       │               │       └── MenuState.class
+│   │   │       │               ├── util
+│   │   │       │               │   ├── Action.class
+│   │   │       │               │   └── Renderable.class
+│   │   │       │               └── view
+│   │   │       │                   ├── levels
+│   │   │       │                   │   ├── basement
+│   │   │       │                   │   │   ├── CorridorBasementLevel$1.class
+│   │   │       │                   │   │   ├── CorridorBasementLevel$2.class
+│   │   │       │                   │   │   ├── CorridorBasementLevel$3.class
+│   │   │       │                   │   │   ├── CorridorBasementLevel.class
+│   │   │       │                   │   │   ├── SecretRoomBasementLevel$1.class
+│   │   │       │                   │   │   └── SecretRoomBasementLevel.class
+│   │   │       │                   │   ├── cutscenes
+│   │   │       │                   │   │   ├── DiningRoomCutsceneLevel$1.class
+│   │   │       │                   │   │   ├── DiningRoomCutsceneLevel.class
+│   │   │       │                   │   │   ├── EatedDiningRoomCutsceneLevel$1.class
+│   │   │       │                   │   │   ├── EatedDiningRoomCutsceneLevel$2.class
+│   │   │       │                   │   │   ├── EatedDiningRoomCutsceneLevel$3.class
+│   │   │       │                   │   │   ├── EatedDiningRoomCutsceneLevel$4.class
+│   │   │       │                   │   │   ├── EatedDiningRoomCutsceneLevel.class
+│   │   │       │                   │   │   ├── GardenNoiseOnBlackLevel$1.class
+│   │   │       │                   │   │   ├── GardenNoiseOnBlackLevel$2.class
+│   │   │       │                   │   │   ├── GardenNoiseOnBlackLevel.class
+│   │   │       │                   │   │   ├── NewGameCutsceneLevel$1.class
+│   │   │       │                   │   │   ├── NewGameCutsceneLevel.class
+│   │   │       │                   │   │   ├── NewPhaseCutsceneLevel.class
+│   │   │       │                   │   │   ├── Room2FFCutsceneLevel$1.class
+│   │   │       │                   │   │   ├── Room2FFCutsceneLevel2$1.class
+│   │   │       │                   │   │   ├── Room2FFCutsceneLevel2.class
+│   │   │       │                   │   │   └── Room2FFCutsceneLevel.class
+│   │   │       │                   │   ├── first_floor
+│   │   │       │                   │   │   ├── BallroomFFLevel$1.class
+│   │   │       │                   │   │   ├── BallroomFFLevel.class
+│   │   │       │                   │   │   ├── BallroomToiletFFLevel$1.class
+│   │   │       │                   │   │   ├── BallroomToiletFFLevel.class
+│   │   │       │                   │   │   ├── ClosetFFLevel$1.class
+│   │   │       │                   │   │   ├── ClosetFFLevel.class
+│   │   │       │                   │   │   ├── DiningRoomFFLevel$1.class
+│   │   │       │                   │   │   ├── DiningRoomFFLevel$2.class
+│   │   │       │                   │   │   ├── DiningRoomFFLevel$3.class
+│   │   │       │                   │   │   ├── DiningRoomFFLevel.class
+│   │   │       │                   │   │   ├── EastCorridorFFLevel$1.class
+│   │   │       │                   │   │   ├── EastCorridorFFLevel$2.class
+│   │   │       │                   │   │   ├── EastCorridorFFLevel$3.class
+│   │   │       │                   │   │   ├── EastCorridorFFLevel$4.class
+│   │   │       │                   │   │   ├── EastCorridorFFLevel$5.class
+│   │   │       │                   │   │   ├── EastCorridorFFLevel$6.class
+│   │   │       │                   │   │   ├── EastCorridorFFLevel$7.class
+│   │   │       │                   │   │   ├── EastCorridorFFLevel.class
+│   │   │       │                   │   │   ├── GenericBathroomFFLevel$1.class
+│   │   │       │                   │   │   ├── GenericBathroomFFLevel.class
+│   │   │       │                   │   │   ├── HallFFLevel$1.class
+│   │   │       │                   │   │   ├── HallFFLevel$2.class
+│   │   │       │                   │   │   ├── HallFFLevel$3.class
+│   │   │       │                   │   │   ├── HallFFLevel$4.class
+│   │   │       │                   │   │   ├── HallFFLevel$5.class
+│   │   │       │                   │   │   ├── HallFFLevel$6.class
+│   │   │       │                   │   │   ├── HallFFLevel.class
+│   │   │       │                   │   │   ├── KitchenFFLevel$1.class
+│   │   │       │                   │   │   ├── KitchenFFLevel$2.class
+│   │   │       │                   │   │   ├── KitchenFFLevel.class
+│   │   │       │                   │   │   ├── Room1FFLevel$1.class
+│   │   │       │                   │   │   ├── Room1FFLevel$2.class
+│   │   │       │                   │   │   ├── Room1FFLevel.class
+│   │   │       │                   │   │   ├── Room2FFLevel$1.class
+│   │   │       │                   │   │   ├── Room2FFLevel$2.class
+│   │   │       │                   │   │   ├── Room2FFLevel.class
+│   │   │       │                   │   │   ├── WestCorridorFFLevel$1.class
+│   │   │       │                   │   │   ├── WestCorridorFFLevel$2.class
+│   │   │       │                   │   │   ├── WestCorridorFFLevel$3.class
+│   │   │       │                   │   │   └── WestCorridorFFLevel.class
+│   │   │       │                   │   ├── second_floor
+│   │   │       │                   │   │   ├── DaughterRoomSFLevel$1.class
+│   │   │       │                   │   │   ├── DaughterRoomSFLevel.class
+│   │   │       │                   │   │   ├── EastCorridorSFLevel$1.class
+│   │   │       │                   │   │   ├── EastCorridorSFLevel$2.class
+│   │   │       │                   │   │   ├── EastCorridorSFLevel$3.class
+│   │   │       │                   │   │   ├── EastCorridorSFLevel$4.class
+│   │   │       │                   │   │   ├── EastCorridorSFLevel$5.class
+│   │   │       │                   │   │   ├── EastCorridorSFLevel.class
+│   │   │       │                   │   │   ├── GardenSFLevel$1.class
+│   │   │       │                   │   │   ├── GardenSFLevel$2.class
+│   │   │       │                   │   │   ├── GardenSFLevel.class
+│   │   │       │                   │   │   ├── GardenSFNoCorpseLevel$1.class
+│   │   │       │                   │   │   ├── GardenSFNoCorpseLevel$2.class
+│   │   │       │                   │   │   ├── GardenSFNoCorpseLevel$3.class
+│   │   │       │                   │   │   ├── GardenSFNoCorpseLevel$4.class
+│   │   │       │                   │   │   ├── GardenSFNoCorpseLevel.class
+│   │   │       │                   │   │   ├── GenericBathroomSFLevel$1.class
+│   │   │       │                   │   │   ├── GenericBathroomSFLevel.class
+│   │   │       │                   │   │   ├── HallSFLevel$1.class
+│   │   │       │                   │   │   ├── HallSFLevel$2.class
+│   │   │       │                   │   │   ├── HallSFLevel$3.class
+│   │   │       │                   │   │   ├── HallSFLevel$4.class
+│   │   │       │                   │   │   ├── HallSFLevel$5.class
+│   │   │       │                   │   │   ├── HallSFLevel.class
+│   │   │       │                   │   │   ├── LibrarySFLevel$1.class
+│   │   │       │                   │   │   ├── LibrarySFLevel$2.class
+│   │   │       │                   │   │   ├── LibrarySFLevel.class
+│   │   │       │                   │   │   ├── OwnerBathroomSFLevel$1.class
+│   │   │       │                   │   │   ├── OwnerBathroomSFLevel.class
+│   │   │       │                   │   │   ├── OwnerRoomSFLevel$1.class
+│   │   │       │                   │   │   ├── OwnerRoomSFLevel$2.class
+│   │   │       │                   │   │   ├── OwnerRoomSFLevel$3.class
+│   │   │       │                   │   │   ├── OwnerRoomSFLevel.class
+│   │   │       │                   │   │   ├── Room3SFLevel$1.class
+│   │   │       │                   │   │   ├── Room3SFLevel$2.class
+│   │   │       │                   │   │   ├── Room3SFLevel.class
+│   │   │       │                   │   │   ├── Room4SFLevel$1.class
+│   │   │       │                   │   │   ├── Room4SFLevel.class
+│   │   │       │                   │   │   ├── WestCorridorSFLevel$1.class
+│   │   │       │                   │   │   ├── WestCorridorSFLevel$2.class
+│   │   │       │                   │   │   ├── WestCorridorSFLevel$3.class
+│   │   │       │                   │   │   └── WestCorridorSFLevel.class
+│   │   │       │                   │   └── third_floor
+│   │   │       │                   │       ├── CeilingRoomTFLevel$1.class
+│   │   │       │                   │       ├── CeilingRoomTFLevel$2.class
+│   │   │       │                   │       ├── CeilingRoomTFLevel.class
+│   │   │       │                   │       ├── CeilingTFLevel$1.class
+│   │   │       │                   │       ├── CeilingTFLevel$2.class
+│   │   │       │                   │       └── CeilingTFLevel.class
+│   │   │       │                   ├── menus
+│   │   │       │                   │   ├── CharacterSelectionMenu$1.class
+│   │   │       │                   │   ├── CharacterSelectionMenu$2.class
+│   │   │       │                   │   ├── CharacterSelectionMenu$3.class
+│   │   │       │                   │   ├── CharacterSelectionMenu.class
+│   │   │       │                   │   ├── ComputerMenu$1.class
+│   │   │       │                   │   ├── ComputerMenu$2.class
+│   │   │       │                   │   ├── ComputerMenu$3.class
+│   │   │       │                   │   ├── ComputerMenu$4.class
+│   │   │       │                   │   ├── ComputerMenu$5.class
+│   │   │       │                   │   ├── ComputerMenu$6.class
+│   │   │       │                   │   ├── ComputerMenu.class
+│   │   │       │                   │   ├── MainMenu$1.class
+│   │   │       │                   │   ├── MainMenu$2.class
+│   │   │       │                   │   ├── MainMenu$3.class
+│   │   │       │                   │   ├── MainMenu$4.class
+│   │   │       │                   │   ├── MainMenu.class
+│   │   │       │                   │   ├── NotebookMenu$1.class
+│   │   │       │                   │   ├── NotebookMenu$2.class
+│   │   │       │                   │   ├── NotebookMenu$3.class
+│   │   │       │                   │   ├── NotebookMenu.class
+│   │   │       │                   │   ├── PauseMenu$1.class
+│   │   │       │                   │   ├── PauseMenu$2.class
+│   │   │       │                   │   ├── PauseMenu$3.class
+│   │   │       │                   │   ├── PauseMenu$4.class
+│   │   │       │                   │   ├── PauseMenu.class
+│   │   │       │                   │   ├── SaveMenu$10.class
+│   │   │       │                   │   ├── SaveMenu$11.class
+│   │   │       │                   │   ├── SaveMenu$12.class
+│   │   │       │                   │   ├── SaveMenu$13.class
+│   │   │       │                   │   ├── SaveMenu$1.class
+│   │   │       │                   │   ├── SaveMenu$2.class
+│   │   │       │                   │   ├── SaveMenu$3.class
+│   │   │       │                   │   ├── SaveMenu$4.class
+│   │   │       │                   │   ├── SaveMenu$5.class
+│   │   │       │                   │   ├── SaveMenu$6.class
+│   │   │       │                   │   ├── SaveMenu$7.class
+│   │   │       │                   │   ├── SaveMenu$8.class
+│   │   │       │                   │   ├── SaveMenu$9.class
+│   │   │       │                   │   ├── SaveMenu.class
+│   │   │       │                   │   ├── SettingsMenu$1.class
+│   │   │       │                   │   ├── SettingsMenu$2.class
+│   │   │       │                   │   ├── SettingsMenu$3.class
+│   │   │       │                   │   ├── SettingsMenu$4.class
+│   │   │       │                   │   ├── SettingsMenu$5.class
+│   │   │       │                   │   ├── SettingsMenu$6.class
+│   │   │       │                   │   ├── SettingsMenu$7.class
+│   │   │       │                   │   ├── SettingsMenu$8.class
+│   │   │       │                   │   ├── SettingsMenu$9.class
+│   │   │       │                   │   └── SettingsMenu.class
+│   │   │       │                   ├── screens
+│   │   │       │                   │   ├── GameScreen.class
+│   │   │       │                   │   ├── MenuScreen.class
+│   │   │       │                   │   └── TransitionScreen.class
+│   │   │       │                   └── ui
+│   │   │       │                       ├── DialogBox$STATE.class
+│   │   │       │                       ├── DialogBox.class
+│   │   │       │                       └── OptionBox.class
+│   │   │       └── test
+│   │   │           └── io
+│   │   │               └── github
+│   │   │                   └── dinner
+│   │   │                       ├── DinnerTest.class
+│   │   │                       └── screens
+│   │   │                           ├── MainMenuTest$1.class
+│   │   │                           └── MainMenuTest.class
+│   │   ├── generated
+│   │   │   └── sources
+│   │   │       ├── annotationProcessor
+│   │   │       │   └── java
+│   │   │       │       ├── main
+│   │   │       │       └── test
+│   │   │       └── headers
+│   │   │           └── java
+│   │   │               ├── main
+│   │   │               └── test
+│   │   ├── libs
+│   │   │   └── core-$projectVersion.jar
+│   │   ├── test-results
+│   │   │   └── test
+│   │   │       └── TEST-io.github.dinner.screens.MainMenuTest.xml
+│   │   └── tmp
+│   │       ├── compileJava
+│   │       │   ├── compileTransaction
+│   │       │   │   ├── backup-dir
+│   │       │   │   └── stash-dir
+│   │       │   │       ├── Adelaide.class.uniqueId36
+│   │       │   │       ├── Aurora$1.class.uniqueId52
+│   │       │   │       ├── Aurora$2.class.uniqueId37
+│   │       │   │       ├── Aurora.class.uniqueId122
+│   │       │   │       ├── BallroomFFLevel$1.class.uniqueId163
+│   │       │   │       ├── BallroomFFLevel.class.uniqueId92
+│   │       │   │       ├── BallroomToiletFFLevel$1.class.uniqueId42
+│   │       │   │       ├── BallroomToiletFFLevel.class.uniqueId147
+│   │       │   │       ├── Carlo.class.uniqueId156
+│   │       │   │       ├── CeilingRoomTFLevel$1.class.uniqueId98
+│   │       │   │       ├── CeilingRoomTFLevel$2.class.uniqueId114
+│   │       │   │       ├── CeilingRoomTFLevel.class.uniqueId164
+│   │       │   │       ├── CeilingTFLevel$1.class.uniqueId67
+│   │       │   │       ├── CeilingTFLevel$2.class.uniqueId116
+│   │       │   │       ├── CeilingTFLevel.class.uniqueId15
+│   │       │   │       ├── CharacterSelectionMenu$1.class.uniqueId13
+│   │       │   │       ├── CharacterSelectionMenu$2.class.uniqueId87
+│   │       │   │       ├── CharacterSelectionMenu$3.class.uniqueId94
+│   │       │   │       ├── CharacterSelectionMenu.class.uniqueId127
+│   │       │   │       ├── ClosetFFLevel$1.class.uniqueId38
+│   │       │   │       ├── ClosetFFLevel.class.uniqueId65
+│   │       │   │       ├── ComputerMenu$1.class.uniqueId124
+│   │       │   │       ├── ComputerMenu$2.class.uniqueId198
+│   │       │   │       ├── ComputerMenu$3.class.uniqueId190
+│   │       │   │       ├── ComputerMenu$4.class.uniqueId21
+│   │       │   │       ├── ComputerMenu$5.class.uniqueId70
+│   │       │   │       ├── ComputerMenu$6.class.uniqueId51
+│   │       │   │       ├── ComputerMenu.class.uniqueId117
+│   │       │   │       ├── CorridorBasementLevel$1.class.uniqueId102
+│   │       │   │       ├── CorridorBasementLevel$2.class.uniqueId82
+│   │       │   │       ├── CorridorBasementLevel$3.class.uniqueId34
+│   │       │   │       ├── CorridorBasementLevel.class.uniqueId46
+│   │       │   │       ├── DaughterRoomSFLevel$1.class.uniqueId76
+│   │       │   │       ├── DaughterRoomSFLevel.class.uniqueId177
+│   │       │   │       ├── DialogBox$STATE.class.uniqueId84
+│   │       │   │       ├── DialogBox.class.uniqueId7
+│   │       │   │       ├── Dialog.class.uniqueId108
+│   │       │   │       ├── DialogController.class.uniqueId101
+│   │       │   │       ├── Dialogs.class.uniqueId8
+│   │       │   │       ├── DialogTraverser.class.uniqueId47
+│   │       │   │       ├── DiningRoomCutsceneLevel$1.class.uniqueId132
+│   │       │   │       ├── DiningRoomCutsceneLevel.class.uniqueId155
+│   │       │   │       ├── DiningRoomFFLevel$1.class.uniqueId176
+│   │       │   │       ├── DiningRoomFFLevel$2.class.uniqueId6
+│   │       │   │       ├── DiningRoomFFLevel$3.class.uniqueId100
+│   │       │   │       ├── DiningRoomFFLevel.class.uniqueId171
+│   │       │   │       ├── Dinner$GameState.class.uniqueId104
+│   │       │   │       ├── Dinner.class.uniqueId199
+│   │       │   │       ├── EastCorridorFFLevel$1.class.uniqueId135
+│   │       │   │       ├── EastCorridorFFLevel$2.class.uniqueId150
+│   │       │   │       ├── EastCorridorFFLevel$3.class.uniqueId79
+│   │       │   │       ├── EastCorridorFFLevel$4.class.uniqueId90
+│   │       │   │       ├── EastCorridorFFLevel$5.class.uniqueId192
+│   │       │   │       ├── EastCorridorFFLevel$6.class.uniqueId162
+│   │       │   │       ├── EastCorridorFFLevel$7.class.uniqueId26
+│   │       │   │       ├── EastCorridorFFLevel.class.uniqueId35
+│   │       │   │       ├── EastCorridorSFLevel$1.class.uniqueId10
+│   │       │   │       ├── EastCorridorSFLevel$2.class.uniqueId174
+│   │       │   │       ├── EastCorridorSFLevel$3.class.uniqueId43
+│   │       │   │       ├── EastCorridorSFLevel$4.class.uniqueId49
+│   │       │   │       ├── EastCorridorSFLevel$5.class.uniqueId89
+│   │       │   │       ├── EastCorridorSFLevel.class.uniqueId184
+│   │       │   │       ├── EatedDiningRoomCutsceneLevel$1.class.uniqueId186
+│   │       │   │       ├── EatedDiningRoomCutsceneLevel$2.class.uniqueId202
+│   │       │   │       ├── EatedDiningRoomCutsceneLevel$3.class.uniqueId23
+│   │       │   │       ├── EatedDiningRoomCutsceneLevel$4.class.uniqueId41
+│   │       │   │       ├── EatedDiningRoomCutsceneLevel.class.uniqueId68
+│   │       │   │       ├── Eleonora.class.uniqueId153
+│   │       │   │       ├── GameScreen.class.uniqueId203
+│   │       │   │       ├── GardenNoiseOnBlackLevel$1.class.uniqueId20
+│   │       │   │       ├── GardenNoiseOnBlackLevel$2.class.uniqueId61
+│   │       │   │       ├── GardenNoiseOnBlackLevel.class.uniqueId144
+│   │       │   │       ├── GardenSFLevel$1.class.uniqueId78
+│   │       │   │       ├── GardenSFLevel$2.class.uniqueId96
+│   │       │   │       ├── GardenSFLevel.class.uniqueId57
+│   │       │   │       ├── GardenSFNoCorpseLevel$1.class.uniqueId12
+│   │       │   │       ├── GardenSFNoCorpseLevel$2.class.uniqueId58
+│   │       │   │       ├── GardenSFNoCorpseLevel$3.class.uniqueId85
+│   │       │   │       ├── GardenSFNoCorpseLevel$4.class.uniqueId14
+│   │       │   │       ├── GardenSFNoCorpseLevel.class.uniqueId121
+│   │       │   │       ├── GenericBathroomFFLevel$1.class.uniqueId86
+│   │       │   │       ├── GenericBathroomFFLevel.class.uniqueId83
+│   │       │   │       ├── GenericBathroomSFLevel$1.class.uniqueId32
+│   │       │   │       ├── GenericBathroomSFLevel.class.uniqueId16
+│   │       │   │       ├── Giovanni.class.uniqueId29
+│   │       │   │       ├── HallFFLevel$1.class.uniqueId182
+│   │       │   │       ├── HallFFLevel$2.class.uniqueId11
+│   │       │   │       ├── HallFFLevel$3.class.uniqueId62
+│   │       │   │       ├── HallFFLevel$4.class.uniqueId30
+│   │       │   │       ├── HallFFLevel$5.class.uniqueId18
+│   │       │   │       ├── HallFFLevel$6.class.uniqueId157
+│   │       │   │       ├── HallFFLevel.class.uniqueId44
+│   │       │   │       ├── HallSFLevel$1.class.uniqueId188
+│   │       │   │       ├── HallSFLevel$2.class.uniqueId201
+│   │       │   │       ├── HallSFLevel$3.class.uniqueId123
+│   │       │   │       ├── HallSFLevel$4.class.uniqueId129
+│   │       │   │       ├── HallSFLevel$5.class.uniqueId151
+│   │       │   │       ├── HallSFLevel.class.uniqueId193
+│   │       │   │       ├── InteractableObject.class.uniqueId27
+│   │       │   │       ├── InteractableObjectController$1.class.uniqueId81
+│   │       │   │       ├── InteractableObjectController.class.uniqueId69
+│   │       │   │       ├── InteractionController.class.uniqueId40
+│   │       │   │       ├── Item.class.uniqueId99
+│   │       │   │       ├── KitchenFFLevel$1.class.uniqueId200
+│   │       │   │       ├── KitchenFFLevel$2.class.uniqueId169
+│   │       │   │       ├── KitchenFFLevel.class.uniqueId91
+│   │       │   │       ├── LevelController.class.uniqueId134
+│   │       │   │       ├── LevelState.class.uniqueId103
+│   │       │   │       ├── LibrarySFLevel$1.class.uniqueId145
+│   │       │   │       ├── LibrarySFLevel$2.class.uniqueId175
+│   │       │   │       ├── LibrarySFLevel.class.uniqueId165
+│   │       │   │       ├── LinearDialogNode.class.uniqueId106
+│   │       │   │       ├── MainMenu$1.class.uniqueId24
+│   │       │   │       ├── MainMenu$2.class.uniqueId59
+│   │       │   │       ├── MainMenu$3.class.uniqueId74
+│   │       │   │       ├── MainMenu$4.class.uniqueId22
+│   │       │   │       ├── MainMenu.class.uniqueId194
+│   │       │   │       ├── MenuController.class.uniqueId172
+│   │       │   │       ├── MenuScreen.class.uniqueId73
+│   │       │   │       ├── MenuState.class.uniqueId111
+│   │       │   │       ├── NewGameCutsceneLevel$1.class.uniqueId139
+│   │       │   │       ├── NewGameCutsceneLevel.class.uniqueId5
+│   │       │   │       ├── NewPhaseCutsceneLevel.class.uniqueId9
+│   │       │   │       ├── Notebook.class.uniqueId187
+│   │       │   │       ├── NotebookMenu$1.class.uniqueId181
+│   │       │   │       ├── NotebookMenu$2.class.uniqueId161
+│   │       │   │       ├── NotebookMenu$3.class.uniqueId154
+│   │       │   │       ├── NotebookMenu.class.uniqueId142
+│   │       │   │       ├── Npc$Direction.class.uniqueId138
+│   │       │   │       ├── Npc.class.uniqueId2
+│   │       │   │       ├── OptionBox.class.uniqueId63
+│   │       │   │       ├── OwnerBathroomSFLevel$1.class.uniqueId119
+│   │       │   │       ├── OwnerBathroomSFLevel.class.uniqueId50
+│   │       │   │       ├── OwnerRoomSFLevel$1.class.uniqueId140
+│   │       │   │       ├── OwnerRoomSFLevel$2.class.uniqueId130
+│   │       │   │       ├── OwnerRoomSFLevel$3.class.uniqueId80
+│   │       │   │       ├── OwnerRoomSFLevel.class.uniqueId146
+│   │       │   │       ├── PauseController.class.uniqueId131
+│   │       │   │       ├── PauseMenu$1.class.uniqueId60
+│   │       │   │       ├── PauseMenu$2.class.uniqueId170
+│   │       │   │       ├── PauseMenu$3.class.uniqueId178
+│   │       │   │       ├── PauseMenu$4.class.uniqueId107
+│   │       │   │       ├── PauseMenu.class.uniqueId72
+│   │       │   │       ├── Player$PlayerDirection.class.uniqueId28
+│   │       │   │       ├── Player.class.uniqueId95
+│   │       │   │       ├── PlayerController$1.class.uniqueId56
+│   │       │   │       ├── PlayerController.class.uniqueId195
+│   │       │   │       ├── PlayerMemento.class.uniqueId77
+│   │       │   │       ├── Progress.class.uniqueId159
+│   │       │   │       ├── Renderable.class.uniqueId25
+│   │       │   │       ├── Room1FFLevel$1.class.uniqueId166
+│   │       │   │       ├── Room1FFLevel$2.class.uniqueId197
+│   │       │   │       ├── Room1FFLevel.class.uniqueId136
+│   │       │   │       ├── Room2FFCutsceneLevel$1.class.uniqueId4
+│   │       │   │       ├── Room2FFCutsceneLevel2$1.class.uniqueId191
+│   │       │   │       ├── Room2FFCutsceneLevel2.class.uniqueId71
+│   │       │   │       ├── Room2FFCutsceneLevel.class.uniqueId88
+│   │       │   │       ├── Room2FFLevel$1.class.uniqueId45
+│   │       │   │       ├── Room2FFLevel$2.class.uniqueId55
+│   │       │   │       ├── Room2FFLevel.class.uniqueId112
+│   │       │   │       ├── Room3SFLevel$1.class.uniqueId185
+│   │       │   │       ├── Room3SFLevel$2.class.uniqueId173
+│   │       │   │       ├── Room3SFLevel.class.uniqueId31
+│   │       │   │       ├── Room4SFLevel$1.class.uniqueId141
+│   │       │   │       ├── Room4SFLevel.class.uniqueId158
+│   │       │   │       ├── SaveController$1.class.uniqueId152
+│   │       │   │       ├── SaveController$GameData.class.uniqueId115
+│   │       │   │       ├── SaveController.class.uniqueId105
+│   │       │   │       ├── SaveMenu$10.class.uniqueId19
+│   │       │   │       ├── SaveMenu$11.class.uniqueId179
+│   │       │   │       ├── SaveMenu$12.class.uniqueId196
+│   │       │   │       ├── SaveMenu$13.class.uniqueId126
+│   │       │   │       ├── SaveMenu$1.class.uniqueId66
+│   │       │   │       ├── SaveMenu$2.class.uniqueId120
+│   │       │   │       ├── SaveMenu$3.class.uniqueId133
+│   │       │   │       ├── SaveMenu$4.class.uniqueId167
+│   │       │   │       ├── SaveMenu$5.class.uniqueId125
+│   │       │   │       ├── SaveMenu$6.class.uniqueId93
+│   │       │   │       ├── SaveMenu$7.class.uniqueId97
+│   │       │   │       ├── SaveMenu$8.class.uniqueId1
+│   │       │   │       ├── SaveMenu$9.class.uniqueId48
+│   │       │   │       ├── SaveMenu.class.uniqueId183
+│   │       │   │       ├── SecretRoomBasementLevel$1.class.uniqueId33
+│   │       │   │       ├── SecretRoomBasementLevel.class.uniqueId3
+│   │       │   │       ├── SettingsController.class.uniqueId110
+│   │       │   │       ├── SettingsMenu$1.class.uniqueId180
+│   │       │   │       ├── SettingsMenu$2.class.uniqueId113
+│   │       │   │       ├── SettingsMenu$3.class.uniqueId149
+│   │       │   │       ├── SettingsMenu$4.class.uniqueId137
+│   │       │   │       ├── SettingsMenu$5.class.uniqueId118
+│   │       │   │       ├── SettingsMenu$6.class.uniqueId204
+│   │       │   │       ├── SettingsMenu$7.class.uniqueId17
+│   │       │   │       ├── SettingsMenu$8.class.uniqueId39
+│   │       │   │       ├── SettingsMenu$9.class.uniqueId53
+│   │       │   │       ├── SettingsMenu.class.uniqueId160
+│   │       │   │       ├── TransitionScreen.class.uniqueId148
+│   │       │   │       ├── Vittorio.class.uniqueId54
+│   │       │   │       ├── WestCorridorFFLevel$1.class.uniqueId64
+│   │       │   │       ├── WestCorridorFFLevel$2.class.uniqueId0
+│   │       │   │       ├── WestCorridorFFLevel$3.class.uniqueId168
+│   │       │   │       ├── WestCorridorFFLevel.class.uniqueId75
+│   │       │   │       ├── WestCorridorSFLevel$1.class.uniqueId109
+│   │       │   │       ├── WestCorridorSFLevel$2.class.uniqueId143
+│   │       │   │       ├── WestCorridorSFLevel$3.class.uniqueId128
+│   │       │   │       └── WestCorridorSFLevel.class.uniqueId189
+│   │       │   └── previous-compilation-data.bin
+│   │       ├── jar
+│   │       │   └── MANIFEST.MF
+│   │       └── test
+│   ├── build.gradle
+│   └── src
+│       ├── main
+│       │   └── java
+│       │       └── io
+│       │           └── github
+│       │               └── dinner
+│       │                   ├── controller
+│       │                   │   ├── AudioController.java
+│       │                   │   ├── DialogController.java
+│       │                   │   ├── InteractableObjectController.java
+│       │                   │   ├── InteractionController.java
+│       │                   │   ├── LevelController.java
+│       │                   │   ├── MenuController.java
+│       │                   │   ├── PauseController.java
+│       │                   │   ├── PlayerController.java
+│       │                   │   ├── SaveController.java
+│       │                   │   └── SettingsController.java
+│       │                   ├── Dinner.java
+│       │                   ├── model
+│       │                   │   ├── dialog
+│       │                   │   │   ├── ChoiceDialogNode.java
+│       │                   │   │   ├── Dialog.java
+│       │                   │   │   ├── DialogNode.java
+│       │                   │   │   ├── Dialogs.java
+│       │                   │   │   ├── DialogTraverser.java
+│       │                   │   │   └── LinearDialogNode.java
+│       │                   │   ├── interactables
+│       │                   │   │   ├── InteractableObject.java
+│       │                   │   │   ├── Item.java
+│       │                   │   │   ├── Npc.java
+│       │                   │   │   └── npcs
+│       │                   │   │       ├── Adelaide.java
+│       │                   │   │       ├── Aurora.java
+│       │                   │   │       ├── Carlo.java
+│       │                   │   │       ├── Eleonora.java
+│       │                   │   │       ├── Giovanni.java
+│       │                   │   │       └── Vittorio.java
+│       │                   │   ├── memento
+│       │                   │   │   ├── ItemMemento.java
+│       │                   │   │   ├── NotebookMemento.java
+│       │                   │   │   ├── NpcDialogMemento.java
+│       │                   │   │   ├── PlayerMemento.java
+│       │                   │   │   ├── ProgressMemento.java
+│       │                   │   │   └── RoomMemento.java
+│       │                   │   ├── Notebook.java
+│       │                   │   ├── Player.java
+│       │                   │   ├── Progress.java
+│       │                   │   └── states
+│       │                   │       ├── LevelState.java
+│       │                   │       └── MenuState.java
+│       │                   ├── util
+│       │                   │   ├── Action.java
+│       │                   │   └── Renderable.java
+│       │                   └── view
+│       │                       ├── levels
+│       │                       │   ├── basement
+│       │                       │   │   ├── CorridorBasementLevel.java
+│       │                       │   │   └── SecretRoomBasementLevel.java
+│       │                       │   ├── cutscenes
+│       │                       │   │   ├── DiningRoomCutsceneLevel.java
+│       │                       │   │   ├── EatedDiningRoomCutsceneLevel.java
+│       │                       │   │   ├── GardenNoiseOnBlackLevel.java
+│       │                       │   │   ├── NewGameCutsceneLevel.java
+│       │                       │   │   ├── NewPhaseCutsceneLevel.java
+│       │                       │   │   ├── Room2FFCutsceneLevel2.java
+│       │                       │   │   └── Room2FFCutsceneLevel.java
+│       │                       │   ├── first_floor
+│       │                       │   │   ├── BallroomFFLevel.java
+│       │                       │   │   ├── BallroomToiletFFLevel.java
+│       │                       │   │   ├── ClosetFFLevel.java
+│       │                       │   │   ├── DiningRoomFFLevel.java
+│       │                       │   │   ├── EastCorridorFFLevel.java
+│       │                       │   │   ├── GenericBathroomFFLevel.java
+│       │                       │   │   ├── HallFFLevel.java
+│       │                       │   │   ├── KitchenFFLevel.java
+│       │                       │   │   ├── Room1FFLevel.java
+│       │                       │   │   ├── Room2FFLevel.java
+│       │                       │   │   └── WestCorridorFFLevel.java
+│       │                       │   ├── second_floor
+│       │                       │   │   ├── DaughterRoomSFLevel.java
+│       │                       │   │   ├── EastCorridorSFLevel.java
+│       │                       │   │   ├── GardenSFLevel.java
+│       │                       │   │   ├── GardenSFNoCorpseLevel.java
+│       │                       │   │   ├── GenericBathroomSFLevel.java
+│       │                       │   │   ├── HallSFLevel.java
+│       │                       │   │   ├── LibrarySFLevel.java
+│       │                       │   │   ├── OwnerBathroomSFLevel.java
+│       │                       │   │   ├── OwnerRoomSFLevel.java
+│       │                       │   │   ├── Room3SFLevel.java
+│       │                       │   │   ├── Room4SFLevel.java
+│       │                       │   │   └── WestCorridorSFLevel.java
+│       │                       │   └── third_floor
+│       │                       │       ├── CeilingRoomTFLevel.java
+│       │                       │       └── CeilingTFLevel.java
+│       │                       ├── menus
+│       │                       │   ├── CharacterSelectionMenu.java
+│       │                       │   ├── ComputerMenu.java
+│       │                       │   ├── MainMenu.java
+│       │                       │   ├── NotebookMenu.java
+│       │                       │   ├── PauseMenu.java
+│       │                       │   ├── SaveMenu.java
+│       │                       │   └── SettingsMenu.java
+│       │                       ├── screens
+│       │                       │   ├── GameScreen.java
+│       │                       │   ├── MenuScreen.java
+│       │                       │   └── TransitionScreen.java
+│       │                       └── ui
+│       │                           ├── DialogBox.java
+│       │                           └── OptionBox.java
+│       └── test
+│           └── java
+│               └── io
+│                   └── github
+│                       └── dinner
+│                           ├── controller
+│                           │   ├── AudioControllerTest.java
+│                           │   ├── DialogControllerTest.java
+│                           │   ├── InteractableObjectControllerTest.java
+│                           │   ├── LevelControllerTest.java
+│                           │   ├── MenuControllerTest.java
+│                           │   ├── PauseControllerTest.java
+│                           │   ├── PlayerControllerTest.java
+│                           │   ├── SaveControllerTest.java
+│                           │   └── SettingsControllerTest.java
+│                           └── DinnerTest.java
+├── gradle
+│   └── wrapper
+│       └── gradle-wrapper.properties
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── lwjgl3
+│   ├── build
+│   │   ├── classes
+│   │   │   └── java
+│   │   │       └── main
+│   │   │           └── io
+│   │   │               └── github
+│   │   │                   └── dinner
+│   │   │                       └── lwjgl3
+│   │   │                           ├── Lwjgl3Launcher.class
+│   │   │                           └── StartupHelper.class
+│   │   ├── generated
+│   │   │   └── sources
+│   │   │       ├── annotationProcessor
+│   │   │       │   └── java
+│   │   │       │       └── main
+│   │   │       └── headers
+│   │   │           └── java
+│   │   │               └── main
+│   │   ├── resources
+│   │   │   └── main
+│   │   │       ├── animation
+│   │   │       │   └── turn_off
+│   │   │       │       ├── turn_off2.png
+│   │   │       │       ├── turn_off3.png
+│   │   │       │       ├── turn_off.atlas
+│   │   │       │       └── turn_off.png
+│   │   │       ├── assets.txt
+│   │   │       ├── characters
+│   │   │       │   ├── Adelaide_Idle.png
+│   │   │       │   ├── Aurora_Idle.png
+│   │   │       │   ├── Carlo_Idle.png
+│   │   │       │   ├── Eleonora_Idle.png
+│   │   │       │   ├── Giovanni_Idle.png
+│   │   │       │   ├── ProtagonistF_Idle.png
+│   │   │       │   ├── ProtagonistF_Walk.png
+│   │   │       │   ├── ProtagonistM_Idle.png
+│   │   │       │   ├── ProtagonistM_Walk.png
+│   │   │       │   └── Vittorio_Idle.png
+│   │   │       ├── computer_ui_assets
+│   │   │       │   ├── preview.gif
+│   │   │       │   ├── raw
+│   │   │       │   │   ├── blue.png
+│   │   │       │   │   ├── button.9.png
+│   │   │       │   │   ├── button-down.9.png
+│   │   │       │   │   ├── check-box-off.png
+│   │   │       │   │   ├── check-box.png
+│   │   │       │   │   ├── commodore-64.fnt
+│   │   │       │   │   ├── commodore-64.png
+│   │   │       │   │   ├── cursor.9.png
+│   │   │       │   │   ├── cursor-black.9.png
+│   │   │       │   │   ├── dialog.9.png
+│   │   │       │   │   ├── grey.png
+│   │   │       │   │   ├── horizontal-split-pane.9.png
+│   │   │       │   │   ├── light-blue.png
+│   │   │       │   │   ├── list.9.png
+│   │   │       │   │   ├── minus.png
+│   │   │       │   │   ├── music-off.png
+│   │   │       │   │   ├── music.png
+│   │   │       │   │   ├── plus.png
+│   │   │       │   │   ├── progress-bar.9.png
+│   │   │       │   │   ├── progress-bar-knob.9.png
+│   │   │       │   │   ├── radio-button.9.png
+│   │   │       │   │   ├── radio-button-off.png
+│   │   │       │   │   ├── radio-button.png
+│   │   │       │   │   ├── README.md
+│   │   │       │   │   ├── scroll-bar.9.png
+│   │   │       │   │   ├── scroll-bar-horizontal-knob.9.png
+│   │   │       │   │   ├── scroll-bar-vertical-knob.9.png
+│   │   │       │   │   ├── slider-knob.png
+│   │   │       │   │   ├── slider.png
+│   │   │       │   │   ├── sound-off.png
+│   │   │       │   │   ├── sound.png
+│   │   │       │   │   ├── touchpad-knob.png
+│   │   │       │   │   ├── touchpad.png
+│   │   │       │   │   ├── vertical-split-pane.9.png
+│   │   │       │   │   ├── white.png
+│   │   │       │   │   └── window.9.png
+│   │   │       │   ├── README.md
+│   │   │       │   ├── skin
+│   │   │       │   │   ├── commodore-64.fnt
+│   │   │       │   │   ├── Commodore Pixelized v1.2.fnt
+│   │   │       │   │   ├── Commodore Pixelized v1.2.png
+│   │   │       │   │   ├── uiskin.atlas
+│   │   │       │   │   ├── uiskin.json
+│   │   │       │   │   └── uiskin.png
+│   │   │       │   └── style-guide.png
+│   │   │       ├── cursor.png
+│   │   │       ├── custom_hud_assets
+│   │   │       │   ├── interaction.png
+│   │   │       │   ├── raw
+│   │   │       │   │   ├── Commodore Pixelized v1.2(2).fnt
+│   │   │       │   │   ├── Commodore Pixelized v1.2.fnt
+│   │   │       │   │   ├── Commodore Pixelized v1.2.png
+│   │   │       │   │   ├── DialogBox.9.png
+│   │   │       │   │   ├── DialogBox - Name.9.png
+│   │   │       │   │   ├── interaction.9.png
+│   │   │       │   │   ├── OptionBox.9.png
+│   │   │       │   │   └── Selector.9.png
+│   │   │       │   └── skin
+│   │   │       │       ├── Commodore Pixelized v1.2(2).fnt
+│   │   │       │       ├── Commodore Pixelized v1.2.fnt
+│   │   │       │       ├── HUDSkin.atlas
+│   │   │       │       ├── HUDSkin.json
+│   │   │       │       └── HUDSkin.png
+│   │   │       ├── custom_inventory_assets
+│   │   │       │   ├── raw
+│   │   │       │   │   └── Inventory.9.png
+│   │   │       │   └── skin
+│   │   │       │       ├── InventorySkin.atlas
+│   │   │       │       ├── InventorySkin.json
+│   │   │       │       └── InventorySkin.png
+│   │   │       ├── custom_ui_assets
+│   │   │       │   ├── raw
+│   │   │       │   │   ├── background.9.png
+│   │   │       │   │   ├── black.9.png
+│   │   │       │   │   ├── ButtonDown.9.png
+│   │   │       │   │   ├── ButtonOVER.9.png
+│   │   │       │   │   ├── ButtonUp.9.png
+│   │   │       │   │   ├── Checkbox1.9.png
+│   │   │       │   │   ├── Checkbox2.9.png
+│   │   │       │   │   ├── Checkbox3.9.png
+│   │   │       │   │   ├── Commodore Pixelized v1.2(1).fnt
+│   │   │       │   │   ├── Commodore Pixelized v1.2(1).png
+│   │   │       │   │   ├── Commodore Pixelized v1.2.fnt
+│   │   │       │   │   ├── Commodore Pixelized v1.2.png
+│   │   │       │   │   ├── Cursor.9.png
+│   │   │       │   │   ├── DialogBox.9.png
+│   │   │       │   │   ├── ListBGOver1.9.png
+│   │   │       │   │   ├── ListBGOver2.9.png
+│   │   │       │   │   ├── ListBGOver3.9.png
+│   │   │       │   │   ├── Pause.9.png
+│   │   │       │   │   ├── PauseMainMenu.9.png
+│   │   │       │   │   ├── ProtagonistF.9.png
+│   │   │       │   │   ├── ProtagonistF - over.9.png
+│   │   │       │   │   ├── ProtagonistM.9.png
+│   │   │       │   │   ├── ProtagonistM - over.9.png
+│   │   │       │   │   ├── Scrollbar.9.png
+│   │   │       │   │   ├── Scrollbar-export.9.png
+│   │   │       │   │   ├── Select.9.png
+│   │   │       │   │   ├── SelectOVER.9.png
+│   │   │       │   │   ├── SKIN.png
+│   │   │       │   │   ├── Slider1.9.png
+│   │   │       │   │   ├── Slider2.9.png
+│   │   │       │   │   ├── Slider.9.png
+│   │   │       │   │   ├── SliderBase.9.png
+│   │   │       │   │   ├── typeo___(1).fnt
+│   │   │       │   │   ├── typeo___(1).png
+│   │   │       │   │   ├── typeo___(2).fnt
+│   │   │       │   │   ├── typeo___(2).png
+│   │   │       │   │   ├── typeo___(3).fnt
+│   │   │       │   │   ├── typeo___(3).png
+│   │   │       │   │   ├── typeo___.fnt
+│   │   │       │   │   ├── typeo___.png
+│   │   │       │   │   └── typeo___.ttf
+│   │   │       │   └── skin
+│   │   │       │       ├── Commodore Pixelized v1.2(1).fnt
+│   │   │       │       ├── Commodore Pixelized v1.2.fnt
+│   │   │       │       ├── SKIN2.png
+│   │   │       │       ├── SKIN3.png
+│   │   │       │       ├── SKIN.atlas
+│   │   │       │       ├── SKIN.json
+│   │   │       │       └── SKIN.png
+│   │   │       ├── default.fnt
+│   │   │       ├── font-small.fnt
+│   │   │       ├── investigator_icon.png
+│   │   │       ├── items
+│   │   │       │   ├── knife.png
+│   │   │       │   └── paper.png
+│   │   │       ├── libgdx128.png
+│   │   │       ├── libgdx16.png
+│   │   │       ├── libgdx32.png
+│   │   │       ├── libgdx64.png
+│   │   │       ├── map
+│   │   │       │   ├── 1st Floor
+│   │   │       │   │   ├── Ballroom
+│   │   │       │   │   │   └── Ballroom.tmx
+│   │   │       │   │   ├── Ballroom toilet
+│   │   │       │   │   │   └── Ballroom Toilet.tmx
+│   │   │       │   │   ├── Closet
+│   │   │       │   │   │   └── Closet.tmx
+│   │   │       │   │   ├── Dining Room
+│   │   │       │   │   │   ├── DiningRoom_CUTSCENE_AFTER.tmx
+│   │   │       │   │   │   ├── DiningRoom_CUTSCENE_BEFORE.tmx
+│   │   │       │   │   │   └── DiningRoom.tmx
+│   │   │       │   │   ├── EastCorridor_1stFloor
+│   │   │       │   │   │   └── EastCorridor_1stFloor.tmx
+│   │   │       │   │   ├── Generic Bathroom 1st Floor
+│   │   │       │   │   │   └── Bathroom.tmx
+│   │   │       │   │   ├── Hall 1st Floor
+│   │   │       │   │   │   ├── Hall.tmx
+│   │   │       │   │   │   ├── TilemapHall.aseprite
+│   │   │       │   │   │   └── TilemapHall.json
+│   │   │       │   │   ├── Kitchen
+│   │   │       │   │   │   └── Kitchen.tmx
+│   │   │       │   │   ├── Room 1
+│   │   │       │   │   │   └── Room1.tmx
+│   │   │       │   │   ├── Room 2
+│   │   │       │   │   │   └── Room2.tmx
+│   │   │       │   │   └── WestCorridor_1stFloor
+│   │   │       │   │       └── WestCorridor_1stFloor.tmx
+│   │   │       │   ├── 2nd Floor
+│   │   │       │   │   ├── DaughterRoom
+│   │   │       │   │   │   └── DaughterRoom.tmx
+│   │   │       │   │   ├── EastCorridor_2ndFloor
+│   │   │       │   │   │   ├── EastCorridor_2ndFloor.tmx
+│   │   │       │   │   │   └── Room3.tmx
+│   │   │       │   │   ├── Generic Bathroom 2nd Floor
+│   │   │       │   │   │   └── Bathroom.tmx
+│   │   │       │   │   ├── Giardino
+│   │   │       │   │   │   ├── GardenAfter.tmx
+│   │   │       │   │   │   └── Garden.tmx
+│   │   │       │   │   ├── Hall 2nd Floor
+│   │   │       │   │   │   └── Hall2.tmx
+│   │   │       │   │   ├── Library
+│   │   │       │   │   │   └── Library.tmx
+│   │   │       │   │   ├── OwnerBathroom
+│   │   │       │   │   │   └── OwnerBathroom.tmx
+│   │   │       │   │   ├── OwnerRoom
+│   │   │       │   │   │   └── OwnerRoom.tmx
+│   │   │       │   │   ├── Room 3
+│   │   │       │   │   │   └── Room3.tmx
+│   │   │       │   │   ├── Room 4
+│   │   │       │   │   │   └── Room4.tmx
+│   │   │       │   │   └── WestCorridor_2ndFloor
+│   │   │       │   │       └── WestCorridor_2ndFloor.tmx
+│   │   │       │   ├── 3rd Floor
+│   │   │       │   │   ├── Ceiling
+│   │   │       │   │   │   └── Ceiling.tmx
+│   │   │       │   │   └── CeilingRoom
+│   │   │       │   │       └── CeilingRoom.tmx
+│   │   │       │   ├── arrow_up.png
+│   │   │       │   ├── arrow_up.tsx
+│   │   │       │   ├── Basement
+│   │   │       │   │   ├── BasementCorridor
+│   │   │       │   │   │   └── BasementCorridor.tmx
+│   │   │       │   │   └── SecretRoom
+│   │   │       │   │       ├── SecretRoomF.tmx
+│   │   │       │   │       └── SecretRoomM.tmx
+│   │   │       │   ├── black.tmx
+│   │   │       │   ├── Interiors_16x16.png
+│   │   │       │   ├── Interiors_16x16.tsx
+│   │   │       │   ├── Room_Builder_16x16.png
+│   │   │       │   ├── Room_Builder_16x16.tsx
+│   │   │       │   ├── TILEMAPS
+│   │   │       │   │   ├── Furniture
+│   │   │       │   │   │   ├── Furniture2.aseprite
+│   │   │       │   │   │   ├── Furniture2.png
+│   │   │       │   │   │   ├── Furniture2.tsx
+│   │   │       │   │   │   ├── Furniture.aseprite
+│   │   │       │   │   │   ├── Furniture.json
+│   │   │       │   │   │   ├── Furniture.png
+│   │   │       │   │   │   └── Furniture.tsx
+│   │   │       │   │   ├── Garden
+│   │   │       │   │   │   ├── Garden.aseprite
+│   │   │       │   │   │   ├── GardenExample.aseprite
+│   │   │       │   │   │   ├── Garden.png
+│   │   │       │   │   │   └── Garden.tsx
+│   │   │       │   │   ├── Soffitta
+│   │   │       │   │   │   ├── Ceilling.tsx
+│   │   │       │   │   │   └── Tilemap.png
+│   │   │       │   │   ├── Tilemap1
+│   │   │       │   │   │   ├── Tilemap1.aseprite
+│   │   │       │   │   │   ├── Tilemap1.png
+│   │   │       │   │   │   ├── Tilemap1.tsx
+│   │   │       │   │   │   ├── TilemapExample1.aseprite
+│   │   │       │   │   │   └── TilemapExample1.png
+│   │   │       │   │   ├── Tilemap 2
+│   │   │       │   │   │   ├── Roba vecchia
+│   │   │       │   │   │   │   ├── TilemapExample2_2.png
+│   │   │       │   │   │   │   ├── TilemapExample2_3.png
+│   │   │       │   │   │   │   ├── TilemapExample2_4.png
+│   │   │       │   │   │   │   ├── TilemapExample2_6.png
+│   │   │       │   │   │   │   └── TilemapExample2_8.png
+│   │   │       │   │   │   ├── Tilemap2.aseprite
+│   │   │       │   │   │   ├── Tilemap2.png
+│   │   │       │   │   │   └── Tilemap2.tsx
+│   │   │       │   │   ├── Tilemap 3
+│   │   │       │   │   │   ├── Tilemap3.aseprite
+│   │   │       │   │   │   ├── Tilemap3.png
+│   │   │       │   │   │   ├── Tilemap3.tsx
+│   │   │       │   │   │   ├── TilemapExample3.aseprite
+│   │   │       │   │   │   └── TilemapExample3.png
+│   │   │       │   │   └── Tilemap Hall
+│   │   │       │   │       ├── TilemapHall.png
+│   │   │       │   │       └── TilemapHall.tsx
+│   │   │       │   └── tutorial
+│   │   │       │       ├── Hall.tmx
+│   │   │       │       ├── RetroWhite.png
+│   │   │       │       ├── RetroWhite.tsx
+│   │   │       │       ├── TilemapHall.png
+│   │   │       │       ├── TilemapHall.tsx
+│   │   │       │       ├── tutorialMap.tmx
+│   │   │       │       ├── Tutorial_map.tmx
+│   │   │       │       ├── UI_16x16.png
+│   │   │       │       └── UI_16x16.tsx
+│   │   │       ├── META-INF
+│   │   │       │   └── MANIFEST.MF
+│   │   │       ├── music
+│   │   │       │   ├── garden_ambience.wav
+│   │   │       │   ├── home.wav
+│   │   │       │   ├── MainMenu.wav
+│   │   │       │   └── start_boom.mp3
+│   │   │       ├── player.png
+│   │   │       ├── save_slot_0.json
+│   │   │       ├── save_slot_0_pc.json
+│   │   │       ├── save_slot_1.json
+│   │   │       ├── save_slot_1_pc.json
+│   │   │       ├── save_slot_2_pc.json
+│   │   │       └── sound
+│   │   │           ├── bump.mp3
+│   │   │           ├── bush_rustling.mp3
+│   │   │           ├── check.mp3
+│   │   │           ├── click_down.mp3
+│   │   │           ├── click_up.mp3
+│   │   │           ├── collected.mp3
+│   │   │           ├── door_closed.mp3
+│   │   │           ├── door_entrance_1.mp3
+│   │   │           ├── door_entrance_2.mp3
+│   │   │           ├── flush2.mp3
+│   │   │           ├── flush.mp3
+│   │   │           ├── grassFS1.mp3
+│   │   │           ├── grassFS2.mp3
+│   │   │           ├── old_scream.mp3
+│   │   │           ├── pc_click_1.mp3
+│   │   │           ├── pc_click_2.mp3
+│   │   │           ├── pc_noise_1.mp3
+│   │   │           ├── pc_noise_2.mp3
+│   │   │           ├── pc_text_printing.mp3
+│   │   │           ├── pc_turn_off.mp3
+│   │   │           ├── stairs_down.mp3
+│   │   │           ├── stairs_up.mp3
+│   │   │           ├── transition.mp3
+│   │   │           ├── type.mp3
+│   │   │           ├── woodFS1.mp3
+│   │   │           └── woodFS2.mp3
+│   │   └── tmp
+│   │       └── compileJava
+│   │           ├── compileTransaction
+│   │           │   ├── backup-dir
+│   │           │   └── stash-dir
+│   │           │       └── Lwjgl3Launcher.class.uniqueId0
+│   │           └── previous-compilation-data.bin
+│   ├── build.gradle
+│   ├── icons
+│   │   ├── logo.icns
+│   │   ├── logo.ico
+│   │   └── logo.png
+│   ├── nativeimage.gradle
+│   └── src
+│       └── main
+│           ├── java
+│           │   └── io
+│           │       └── github
+│           │           └── dinner
+│           │               └── lwjgl3
+│           │                   ├── Lwjgl3Launcher.java
+│           │                   └── StartupHelper.java
+│           └── resources
+│               ├── libgdx128.png
+│               ├── libgdx16.png
+│               ├── libgdx32.png
+│               └── libgdx64.png
+├── META-INF
+│   └── MANIFEST.MF
+├── output.txt
+├── README.md
+└── settings.gradle
+
+239 directories, 1052 files

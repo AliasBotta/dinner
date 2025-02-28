@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="18" tileheight="18" infinite="0" nextlayerid="5" nextobjectid="25">
+ <tileset firstgid="1" source="../../TILEMAPS/Tilemap 2/Tilemap2.tsx"/>
+ <tileset firstgid="171" source="../../TILEMAPS/Tilemap 3/Tilemap3.tsx"/>
+ <tileset firstgid="324" source="../../TILEMAPS/Furniture/Furniture.tsx"/>
+ <layer id="1" name="Livello tile 1" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxTYWBgUKESFgJiYSxYhAi9ykD8AIrvI7FVidT7EYo/ILGJ1cvECMGMjAg2sXqFGDHxcNVrAsSmWLAZFrUA14Eayg==
+  </data>
+ </layer>
+ <layer id="2" name="Furniture" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg84BAjA8N1Rgj7JpB+w0i8XhegWleo+kQgnUSC3v9AtVxMEHYZkF1Ogl4RJlR+NBN2ddhAGpI9dkB99iTorUbSGwzUF0KC3uNo/vtGgn+JBQAWXgrv
+  </data>
+ </layer>
+ <objectgroup id="4" name="Collisioni" visible="0">
+  <object id="1" x="72" y="18" width="18" height="162"/>
+  <object id="2" x="90" y="162" width="90" height="18"/>
+  <object id="3" x="180" y="18" width="18" height="162"/>
+  <object id="4" x="90" y="18" width="90" height="54"/>
+  <object id="13" x="144" y="72" width="36" height="18"/>
+  <object id="15" x="144" y="108" width="36" height="36"/>
+  <object id="16" x="162" y="144" width="18" height="18"/>
+  <object id="17" x="90" y="144" width="18" height="18"/>
+  <object id="19" x="90" y="72" width="18" height="36"/>
+  <object id="20" x="108" y="72" width="18" height="18"/>
+  <object id="21" x="90" y="108" width="18" height="36"/>
+  <object id="23" x="162" y="90" width="18" height="18"/>
+ </objectgroup>
+ <layer id="3" name="Foreground" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwU+MQ6s/WtpaD8AEcEBog==
+  </data>
+ </layer>
+</map>

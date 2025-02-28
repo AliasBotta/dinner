@@ -1,0 +1,251 @@
+.gitkeep
+META-INF/MANIFEST.MF
+animation/turn_off/turn_off.atlas
+animation/turn_off/turn_off.png
+animation/turn_off/turn_off2.png
+animation/turn_off/turn_off3.png
+characters/Adelaide_Idle.png
+characters/Aurora_Idle.png
+characters/Carlo_Idle.png
+characters/Eleonora_Idle.png
+characters/Giovanni_Idle.png
+characters/ProtagonistF_Idle.png
+characters/ProtagonistF_Walk.png
+characters/ProtagonistM_Idle.png
+characters/ProtagonistM_Walk.png
+characters/Vittorio_Idle.png
+computer_ui_assets/README.md
+computer_ui_assets/preview.gif
+computer_ui_assets/raw/README.md
+computer_ui_assets/raw/blue.png
+computer_ui_assets/raw/button-down.9.png
+computer_ui_assets/raw/button.9.png
+computer_ui_assets/raw/check-box-off.png
+computer_ui_assets/raw/check-box.png
+computer_ui_assets/raw/commodore-64.fnt
+computer_ui_assets/raw/commodore-64.png
+computer_ui_assets/raw/cursor-black.9.png
+computer_ui_assets/raw/cursor.9.png
+computer_ui_assets/raw/dialog.9.png
+computer_ui_assets/raw/grey.png
+computer_ui_assets/raw/horizontal-split-pane.9.png
+computer_ui_assets/raw/light-blue.png
+computer_ui_assets/raw/list.9.png
+computer_ui_assets/raw/minus.png
+computer_ui_assets/raw/music-off.png
+computer_ui_assets/raw/music.png
+computer_ui_assets/raw/plus.png
+computer_ui_assets/raw/progress-bar-knob.9.png
+computer_ui_assets/raw/progress-bar.9.png
+computer_ui_assets/raw/radio-button-off.png
+computer_ui_assets/raw/radio-button.9.png
+computer_ui_assets/raw/radio-button.png
+computer_ui_assets/raw/scroll-bar-horizontal-knob.9.png
+computer_ui_assets/raw/scroll-bar-vertical-knob.9.png
+computer_ui_assets/raw/scroll-bar.9.png
+computer_ui_assets/raw/slider-knob.png
+computer_ui_assets/raw/slider.png
+computer_ui_assets/raw/sound-off.png
+computer_ui_assets/raw/sound.png
+computer_ui_assets/raw/touchpad-knob.png
+computer_ui_assets/raw/touchpad.png
+computer_ui_assets/raw/vertical-split-pane.9.png
+computer_ui_assets/raw/white.png
+computer_ui_assets/raw/window.9.png
+computer_ui_assets/skin/Commodore Pixelized v1.2.fnt
+computer_ui_assets/skin/Commodore Pixelized v1.2.png
+computer_ui_assets/skin/commodore-64.fnt
+computer_ui_assets/skin/uiskin.atlas
+computer_ui_assets/skin/uiskin.json
+computer_ui_assets/skin/uiskin.png
+computer_ui_assets/style-guide.png
+cursor.png
+custom_hud_assets/interaction.png
+custom_hud_assets/raw/Commodore Pixelized v1.2(2).fnt
+custom_hud_assets/raw/Commodore Pixelized v1.2.fnt
+custom_hud_assets/raw/Commodore Pixelized v1.2.png
+custom_hud_assets/raw/DialogBox - Name.9.png
+custom_hud_assets/raw/DialogBox.9.png
+custom_hud_assets/raw/OptionBox.9.png
+custom_hud_assets/raw/Selector.9.png
+custom_hud_assets/raw/interaction.9.png
+custom_hud_assets/skin/Commodore Pixelized v1.2(2).fnt
+custom_hud_assets/skin/Commodore Pixelized v1.2.fnt
+custom_hud_assets/skin/HUDSkin.atlas
+custom_hud_assets/skin/HUDSkin.json
+custom_hud_assets/skin/HUDSkin.png
+custom_inventory_assets/raw/Inventory.9.png
+custom_inventory_assets/skin/InventorySkin.atlas
+custom_inventory_assets/skin/InventorySkin.json
+custom_inventory_assets/skin/InventorySkin.png
+custom_ui_assets/raw/ButtonDown.9.png
+custom_ui_assets/raw/ButtonOVER.9.png
+custom_ui_assets/raw/ButtonUp.9.png
+custom_ui_assets/raw/Checkbox1.9.png
+custom_ui_assets/raw/Checkbox2.9.png
+custom_ui_assets/raw/Checkbox3.9.png
+custom_ui_assets/raw/Commodore Pixelized v1.2(1).fnt
+custom_ui_assets/raw/Commodore Pixelized v1.2(1).png
+custom_ui_assets/raw/Commodore Pixelized v1.2.fnt
+custom_ui_assets/raw/Commodore Pixelized v1.2.png
+custom_ui_assets/raw/Cursor.9.png
+custom_ui_assets/raw/DialogBox.9.png
+custom_ui_assets/raw/ListBGOver1.9.png
+custom_ui_assets/raw/ListBGOver2.9.png
+custom_ui_assets/raw/ListBGOver3.9.png
+custom_ui_assets/raw/Pause.9.png
+custom_ui_assets/raw/PauseMainMenu.9.png
+custom_ui_assets/raw/ProtagonistF - over.9.png
+custom_ui_assets/raw/ProtagonistF.9.png
+custom_ui_assets/raw/ProtagonistM - over.9.png
+custom_ui_assets/raw/ProtagonistM.9.png
+custom_ui_assets/raw/SKIN.png
+custom_ui_assets/raw/Scrollbar-export.9.png
+custom_ui_assets/raw/Scrollbar.9.png
+custom_ui_assets/raw/Select.9.png
+custom_ui_assets/raw/SelectOVER.9.png
+custom_ui_assets/raw/Slider.9.png
+custom_ui_assets/raw/Slider1.9.png
+custom_ui_assets/raw/Slider2.9.png
+custom_ui_assets/raw/SliderBase.9.png
+custom_ui_assets/raw/background.9.png
+custom_ui_assets/raw/black.9.png
+custom_ui_assets/raw/typeo___(1).fnt
+custom_ui_assets/raw/typeo___(1).png
+custom_ui_assets/raw/typeo___(2).fnt
+custom_ui_assets/raw/typeo___(2).png
+custom_ui_assets/raw/typeo___(3).fnt
+custom_ui_assets/raw/typeo___(3).png
+custom_ui_assets/raw/typeo___.fnt
+custom_ui_assets/raw/typeo___.png
+custom_ui_assets/raw/typeo___.ttf
+custom_ui_assets/skin/Commodore Pixelized v1.2(1).fnt
+custom_ui_assets/skin/Commodore Pixelized v1.2.fnt
+custom_ui_assets/skin/SKIN.atlas
+custom_ui_assets/skin/SKIN.json
+custom_ui_assets/skin/SKIN.png
+custom_ui_assets/skin/SKIN2.png
+custom_ui_assets/skin/SKIN3.png
+default.fnt
+font-small.fnt
+investigator_icon.png
+items/knife.png
+items/paper.png
+map/1st Floor/Ballroom toilet/Ballroom Toilet.tmx
+map/1st Floor/Ballroom/Ballroom.tmx
+map/1st Floor/Closet/Closet.tmx
+map/1st Floor/Dining Room/DiningRoom.tmx
+map/1st Floor/Dining Room/DiningRoom_CUTSCENE_AFTER.tmx
+map/1st Floor/Dining Room/DiningRoom_CUTSCENE_BEFORE.tmx
+map/1st Floor/EastCorridor_1stFloor/EastCorridor_1stFloor.tmx
+map/1st Floor/Generic Bathroom 1st Floor/Bathroom.tmx
+map/1st Floor/Hall 1st Floor/Hall.tmx
+map/1st Floor/Hall 1st Floor/TilemapHall.aseprite
+map/1st Floor/Hall 1st Floor/TilemapHall.json
+map/1st Floor/Kitchen/Kitchen.tmx
+map/1st Floor/Room 1/Room1.tmx
+map/1st Floor/Room 2/Room2.tmx
+map/1st Floor/WestCorridor_1stFloor/WestCorridor_1stFloor.tmx
+map/2nd Floor/DaughterRoom/DaughterRoom.tmx
+map/2nd Floor/EastCorridor_2ndFloor/EastCorridor_2ndFloor.tmx
+map/2nd Floor/EastCorridor_2ndFloor/Room3.tmx
+map/2nd Floor/Generic Bathroom 2nd Floor/Bathroom.tmx
+map/2nd Floor/Giardino/Garden.tmx
+map/2nd Floor/Giardino/GardenAfter.tmx
+map/2nd Floor/Hall 2nd Floor/Hall2.tmx
+map/2nd Floor/Library/Library.tmx
+map/2nd Floor/OwnerBathroom/OwnerBathroom.tmx
+map/2nd Floor/OwnerRoom/OwnerRoom.tmx
+map/2nd Floor/Room 3/Room3.tmx
+map/2nd Floor/Room 4/Room4.tmx
+map/2nd Floor/WestCorridor_2ndFloor/WestCorridor_2ndFloor.tmx
+map/3rd Floor/Ceiling/Ceiling.tmx
+map/3rd Floor/CeilingRoom/CeilingRoom.tmx
+map/Basement/BasementCorridor/BasementCorridor.tmx
+map/Basement/SecretRoom/SecretRoomF.tmx
+map/Basement/SecretRoom/SecretRoomM.tmx
+map/Interiors_16x16.png
+map/Interiors_16x16.tsx
+map/Room_Builder_16x16.png
+map/Room_Builder_16x16.tsx
+map/TILEMAPS/Furniture/Furniture.aseprite
+map/TILEMAPS/Furniture/Furniture.json
+map/TILEMAPS/Furniture/Furniture.png
+map/TILEMAPS/Furniture/Furniture.tsx
+map/TILEMAPS/Furniture/Furniture2.aseprite
+map/TILEMAPS/Furniture/Furniture2.png
+map/TILEMAPS/Furniture/Furniture2.tsx
+map/TILEMAPS/Garden/Garden.aseprite
+map/TILEMAPS/Garden/Garden.png
+map/TILEMAPS/Garden/Garden.tsx
+map/TILEMAPS/Garden/GardenExample.aseprite
+map/TILEMAPS/Soffitta/Ceilling.tsx
+map/TILEMAPS/Soffitta/Tilemap.png
+map/TILEMAPS/Tilemap 2/Roba vecchia/TilemapExample2_2.png
+map/TILEMAPS/Tilemap 2/Roba vecchia/TilemapExample2_3.png
+map/TILEMAPS/Tilemap 2/Roba vecchia/TilemapExample2_4.png
+map/TILEMAPS/Tilemap 2/Roba vecchia/TilemapExample2_6.png
+map/TILEMAPS/Tilemap 2/Roba vecchia/TilemapExample2_8.png
+map/TILEMAPS/Tilemap 2/Tilemap2.aseprite
+map/TILEMAPS/Tilemap 2/Tilemap2.png
+map/TILEMAPS/Tilemap 2/Tilemap2.tsx
+map/TILEMAPS/Tilemap 3/Tilemap3.aseprite
+map/TILEMAPS/Tilemap 3/Tilemap3.png
+map/TILEMAPS/Tilemap 3/Tilemap3.tsx
+map/TILEMAPS/Tilemap 3/TilemapExample3.aseprite
+map/TILEMAPS/Tilemap 3/TilemapExample3.png
+map/TILEMAPS/Tilemap Hall/TilemapHall.png
+map/TILEMAPS/Tilemap Hall/TilemapHall.tsx
+map/TILEMAPS/Tilemap1/Tilemap1.aseprite
+map/TILEMAPS/Tilemap1/Tilemap1.png
+map/TILEMAPS/Tilemap1/Tilemap1.tsx
+map/TILEMAPS/Tilemap1/TilemapExample1.aseprite
+map/TILEMAPS/Tilemap1/TilemapExample1.png
+map/arrow_up.png
+map/arrow_up.tsx
+map/black.tmx
+map/tutorial/Hall.tmx
+map/tutorial/RetroWhite.png
+map/tutorial/RetroWhite.tsx
+map/tutorial/TilemapHall.png
+map/tutorial/TilemapHall.tsx
+map/tutorial/Tutorial_map.tmx
+map/tutorial/UI_16x16.png
+map/tutorial/UI_16x16.tsx
+map/tutorial/tutorialMap.tmx
+music/MainMenu.wav
+music/garden_ambience.wav
+music/home.wav
+music/start_boom.mp3
+player.png
+save_slot_0.json
+save_slot_0_pc.json
+save_slot_1.json
+save_slot_1_pc.json
+save_slot_2_pc.json
+sound/bump.mp3
+sound/bush_rustling.mp3
+sound/check.mp3
+sound/click_down.mp3
+sound/click_up.mp3
+sound/collected.mp3
+sound/door_closed.mp3
+sound/door_entrance_1.mp3
+sound/door_entrance_2.mp3
+sound/flush.mp3
+sound/flush2.mp3
+sound/grassFS1.mp3
+sound/grassFS2.mp3
+sound/old_scream.mp3
+sound/pc_click_1.mp3
+sound/pc_click_2.mp3
+sound/pc_noise_1.mp3
+sound/pc_noise_2.mp3
+sound/pc_text_printing.mp3
+sound/pc_turn_off.mp3
+sound/stairs_down.mp3
+sound/stairs_up.mp3
+sound/transition.mp3
+sound/type.mp3
+sound/woodFS1.mp3
+sound/woodFS2.mp3

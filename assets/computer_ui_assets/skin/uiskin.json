@@ -1,0 +1,250 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	commodore-64: {
+		file: commodore-64.fnt
+		scaledSize: -1
+		markupEnabled: false
+		flip: false
+	}
+	Commodore_Pixelized_v12: {
+		file: Commodore Pixelized v1.2.fnt
+		scaledSize: -1
+		markupEnabled: false
+		flip: false
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+	blue: {
+		r: 0.25882354
+		g: 0.25882354
+		b: 0.90588236
+		a: 1
+	}
+	dark_grey: {
+		r: 0.4
+		g: 0.4
+		b: 0.4
+		a: 1
+	}
+	green: {
+		r: 0.38039216
+		g: 0.5137255
+		b: 0.21960784
+		a: 1
+	}
+	grey: {
+		r: 0.7
+		g: 0.7
+		b: 0.7
+		a: 1
+	}
+	light_blue: {
+		r: 0.64705884
+		g: 0.64705884
+		b: 1
+		a: 1
+	}
+	light_grey: {
+		r: 0.8
+		g: 0.8
+		b: 0.8
+		a: 1
+	}
+	red: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+	RGBA_0_0_0_255: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	dialogDim: {
+		name: white
+		color: {
+			r: 0.2
+			g: 0.2
+			b: 0.2
+			a: 1
+		}
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button
+		down: button-down
+		over: button-down
+	}
+	music: {
+		up: music-off
+		down: music
+		checked: music
+	}
+	sound: {
+		up: sound-off
+		down: sound
+		checked: sound
+	}
+	toggle: {
+		up: button
+		down: button-down
+		checked: button-down
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: check-box
+		checkboxOff: check-box-off
+		font: Commodore_Pixelized_v12
+		fontColor: green
+	}
+	radio: {
+		checkboxOn: radio-button
+		checkboxOff: radio-button-off
+		font: commodore-64
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		up: button
+		down: button-down
+		over: button-down
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: Commodore_Pixelized_v12
+		fontColor: green
+	}
+	optional: {
+		font: commodore-64
+	}
+	error: {
+		font: commodore-64
+	}
+	title: {
+		font: commodore-64
+		background: button
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: Commodore_Pixelized_v12
+		fontColorSelected: RGBA_0_0_0_255
+		fontColorUnselected: white
+		selection: white
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: progress-bar
+		knobBefore: progress-bar-knob
+	}
+	default-vertical: {
+		background: progress-bar
+		knobBefore: progress-bar-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		background: cursor-black
+		hScroll: scroll-bar
+		hScrollKnob: scroll-bar-horizontal-knob
+		vScroll: scroll-bar
+		vScrollKnob: scroll-bar-vertical-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		background: slider
+		knob: slider-knob
+	}
+	default-vertical: {
+		background: slider
+		knob: slider-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+	default-horizontal: {
+		handle: horizontal-split-pane
+	}
+	default-vertical: {
+		handle: vertical-split-pane
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: Commodore_Pixelized_v12
+		fontColor: green
+		up: button
+		down: button-down
+		over: button-down
+	}
+	toggle: {
+		font: commodore-64
+		up: button
+		down: button-down
+		checked: button-down
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: Commodore_Pixelized_v12
+		fontColor: green
+		background: white
+		cursor: cursor-black
+		selection: light-blue
+		messageFont: commodore-64
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+	default: {
+		background: touchpad
+		knob: touchpad-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
+	default: {
+		plus: plus
+		minus: minus
+		selection: progress-bar
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: window
+		titleFont: Commodore_Pixelized_v12
+	}
+	dialog: {
+		background: dialog
+		titleFont: commodore-64
+	}
+	dialog-modal: {
+		background: dialog
+		titleFont: commodore-64
+		stageBackground: blue
+	}
+}
+}

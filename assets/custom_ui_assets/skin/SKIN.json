@@ -1,0 +1,146 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	Commodore_Pixelized_v12: {
+		file: Commodore Pixelized v1.2.fnt
+		scaledSize: -1
+		markupEnabled: false
+		flip: false
+	}
+	Commodore_Pixelized_v121_BROWN: {
+		file: Commodore Pixelized v1.2(1).fnt
+		scaledSize: -1
+		markupEnabled: false
+		flip: false
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	brown: {
+		r: 0.21176471
+		g: 0.20784314
+		b: 0.16470589
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: ButtonUp
+		down: ButtonDown
+		over: ButtonOVER
+	}
+	protagonistM: {
+		up: ProtagonistM
+		down: ProtagonistM - over
+		over: ProtagonistM - over
+	}
+	protagonistF: {
+		up: ProtagonistF
+		down: ProtagonistF - over
+		over: ProtagonistF - over
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: Checkbox1
+		checkboxOff: Checkbox2
+		font: Commodore_Pixelized_v121_BROWN
+	}
+	protagonistM: {
+		checkboxOn: ProtagonistM - over
+		checkboxOff: ProtagonistM
+		font: Commodore_Pixelized_v12
+	}
+	protagonistF: {
+		checkboxOn: ProtagonistF - over
+		checkboxOff: ProtagonistF
+		font: Commodore_Pixelized_v12
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		imageUp: ButtonUp
+		imageDown: ButtonDown
+		imageOver: ButtonOVER
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		imageUp: ButtonUp
+		imageDown: ButtonDown
+		imageOver: ButtonOVER
+		font: Commodore_Pixelized_v121_BROWN
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: Commodore_Pixelized_v121_BROWN
+		fontColor: white
+	}
+	white: {
+		font: Commodore_Pixelized_v12
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: Commodore_Pixelized_v121_BROWN
+		fontColorSelected: black
+		fontColorUnselected: brown
+		selection: ListBGOver1
+		background: ListBGOver3
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		vScrollKnob: Scrollbar
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: Commodore_Pixelized_v121_BROWN
+		fontColor: brown
+		background: Select
+		scrollStyle: default
+		listStyle: default
+		backgroundOver: SelectOVER
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		background: SliderBase
+		knobBefore: Slider1
+		knobAfter: Slider2
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: Commodore_Pixelized_v121_BROWN
+		up: ButtonUp
+		down: ButtonDown
+		over: ButtonOVER
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: Commodore_Pixelized_v121_BROWN
+		fontColor: brown
+		background: Checkbox3
+		cursor: Cursor
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+}
